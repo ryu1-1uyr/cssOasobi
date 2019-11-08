@@ -1,0 +1,4832 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff; }
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative; }
+
+.particle {
+  position: absolute;
+  margin: 50vh 50vw;
+  border-radius: 50%; }
+
+.wrapper {
+  will-change: animation;
+  animation: moveAround 40s infinite ease;
+  transform-style: preserve-3d; }
+
+@keyframes moveAround {
+  100% {
+    transform: rotateY(360deg); } }
+@keyframes rotate_ryu {
+  50% {
+    font-size: 100px;
+    transform: rotateY(-693deg) rotateZ(16deg) rotateX(704deg) translateZ(400px) scale(5); }
+  100% {
+    font-size: 120px;
+    transform: rotateY(1deg) rotateZ(10deg) rotateX(50deg) scale(3); } }
+.particle:nth-child(1) {
+  animation: rotate1 20s 0s ease-in-out forwards, rotate_1 20s 20s ease-in-out forwards;
+  color: #ef8fbc;
+  width: 9px;
+  height: 8px;
+  transform: rotateZ(156deg) rotateX(340deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(1).ryu {
+    animation: rotate1 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate1 {
+  100% {
+    transform: rotateY(100deg) rotateZ(43deg) rotateX(250deg) translateZ(500px); } }
+@keyframes rotate_1 {
+  100% {
+    transform: rotateY(-435deg) rotateZ(199deg) rotateX(230deg) translateZ(400px) scale(1); } }
+.particle:nth-child(2) {
+  animation: rotate2 20s 0s ease-in-out forwards, rotate_2 20s 20s ease-in-out forwards;
+  color: #ef9c8f;
+  width: 105px;
+  height: 150px;
+  transform: rotateZ(219deg) rotateX(256deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(2).ryu {
+    animation: rotate2 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate2 {
+  100% {
+    transform: rotateY(94deg) rotateZ(260deg) rotateX(215deg) translateZ(500px); } }
+@keyframes rotate_2 {
+  100% {
+    transform: rotateY(-198deg) rotateZ(64deg) rotateX(148deg) translateZ(400px) scale(1); } }
+.particle:nth-child(3) {
+  animation: rotate3 20s 0s ease-in-out forwards, rotate_3 20s 20s ease-in-out forwards;
+  color: #d9ef8f;
+  width: 35px;
+  height: 120px;
+  transform: rotateZ(61deg) rotateX(166deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(3).ryu {
+    animation: rotate3 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate3 {
+  100% {
+    transform: rotateY(153deg) rotateZ(67deg) rotateX(219deg) translateZ(500px); } }
+@keyframes rotate_3 {
+  100% {
+    transform: rotateY(-972deg) rotateZ(90deg) rotateX(696deg) translateZ(400px) scale(1); } }
+.particle:nth-child(4) {
+  animation: rotate4 20s 0s ease-in-out forwards, rotate_4 20s 20s ease-in-out forwards;
+  color: #8fe1ef;
+  width: 42px;
+  height: 80px;
+  transform: rotateZ(152deg) rotateX(264deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(4).ryu {
+    animation: rotate4 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate4 {
+  100% {
+    transform: rotateY(202deg) rotateZ(170deg) rotateX(45deg) translateZ(500px); } }
+@keyframes rotate_4 {
+  100% {
+    transform: rotateY(-207deg) rotateZ(276deg) rotateX(204deg) translateZ(400px) scale(1); } }
+.particle:nth-child(5) {
+  animation: rotate5 20s 0s ease-in-out forwards, rotate_5 20s 20s ease-in-out forwards;
+  color: #ae8fef;
+  width: 24px;
+  height: 54px;
+  transform: rotateZ(9deg) rotateX(201deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(5).ryu {
+    animation: rotate5 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate5 {
+  100% {
+    transform: rotateY(297deg) rotateZ(201deg) rotateX(241deg) translateZ(500px); } }
+@keyframes rotate_5 {
+  100% {
+    transform: rotateY(-969deg) rotateZ(211deg) rotateX(204deg) translateZ(400px) scale(1); } }
+.particle:nth-child(6) {
+  animation: rotate6 20s 0s ease-in-out forwards, rotate_6 20s 20s ease-in-out forwards;
+  color: #8fefd2;
+  width: 24px;
+  height: 45px;
+  transform: rotateZ(332deg) rotateX(324deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(6).ryu {
+    animation: rotate6 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate6 {
+  100% {
+    transform: rotateY(11deg) rotateZ(69deg) rotateX(81deg) translateZ(500px); } }
+@keyframes rotate_6 {
+  100% {
+    transform: rotateY(-18deg) rotateZ(282deg) rotateX(90deg) translateZ(400px) scale(1); } }
+.particle:nth-child(7) {
+  animation: rotate7 20s 0s ease-in-out forwards, rotate_7 20s 20s ease-in-out forwards;
+  color: #efea8f;
+  width: 70px;
+  height: 48px;
+  transform: rotateZ(21deg) rotateX(100deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(7).ryu {
+    animation: rotate7 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate7 {
+  100% {
+    transform: rotateY(254deg) rotateZ(146deg) rotateX(287deg) translateZ(500px); } }
+@keyframes rotate_7 {
+  100% {
+    transform: rotateY(-261deg) rotateZ(293deg) rotateX(512deg) translateZ(400px) scale(1); } }
+.particle:nth-child(8) {
+  animation: rotate8 20s 0s ease-in-out forwards, rotate_8 20s 20s ease-in-out forwards;
+  color: #ef8fae;
+  width: 75px;
+  height: 15px;
+  transform: rotateZ(288deg) rotateX(18deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(8).ryu {
+    animation: rotate8 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate8 {
+  100% {
+    transform: rotateY(36deg) rotateZ(164deg) rotateX(275deg) translateZ(500px); } }
+@keyframes rotate_8 {
+  100% {
+    transform: rotateY(-180deg) rotateZ(334deg) rotateX(54deg) translateZ(400px) scale(1); } }
+.particle:nth-child(9) {
+  animation: rotate9 20s 0s ease-in-out forwards, rotate_9 20s 20s ease-in-out forwards;
+  color: #d98fef;
+  width: 28px;
+  height: 33px;
+  transform: rotateZ(46deg) rotateX(108deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(9).ryu {
+    animation: rotate9 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate9 {
+  100% {
+    transform: rotateY(153deg) rotateZ(325deg) rotateX(196deg) translateZ(500px); } }
+@keyframes rotate_9 {
+  100% {
+    transform: rotateY(-879deg) rotateZ(143deg) rotateX(470deg) translateZ(400px) scale(1); } }
+.particle:nth-child(10) {
+  animation: rotate10 20s 0s ease-in-out forwards, rotate_10 20s 20s ease-in-out forwards;
+  color: #e98fef;
+  width: 84px;
+  height: 20px;
+  transform: rotateZ(216deg) rotateX(232deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(10).ryu {
+    animation: rotate10 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate10 {
+  100% {
+    transform: rotateY(264deg) rotateZ(231deg) rotateX(68deg) translateZ(500px); } }
+@keyframes rotate_10 {
+  100% {
+    transform: rotateY(-381deg) rotateZ(201deg) rotateX(474deg) translateZ(400px) scale(1); } }
+.particle:nth-child(11) {
+  animation: rotate11 20s 0s ease-in-out forwards, rotate_11 20s 20s ease-in-out forwards;
+  color: #8fe9ef;
+  width: 30px;
+  height: 8px;
+  transform: rotateZ(3deg) rotateX(4deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(11).ryu {
+    animation: rotate11 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate11 {
+  100% {
+    transform: rotateY(115deg) rotateZ(239deg) rotateX(333deg) translateZ(500px); } }
+@keyframes rotate_11 {
+  100% {
+    transform: rotateY(-1002deg) rotateZ(144deg) rotateX(716deg) translateZ(400px) scale(1); } }
+.particle:nth-child(12) {
+  animation: rotate12 20s 0s ease-in-out forwards, rotate_12 20s 20s ease-in-out forwards;
+  color: #8fefc2;
+  width: 33px;
+  height: 120px;
+  transform: rotateZ(21deg) rotateX(282deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(12).ryu {
+    animation: rotate12 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate12 {
+  100% {
+    transform: rotateY(340deg) rotateZ(231deg) rotateX(327deg) translateZ(500px); } }
+@keyframes rotate_12 {
+  100% {
+    transform: rotateY(-1041deg) rotateZ(28deg) rotateX(568deg) translateZ(400px) scale(1); } }
+.particle:nth-child(13) {
+  animation: rotate13 20s 0s ease-in-out forwards, rotate_13 20s 20s ease-in-out forwards;
+  color: #8fefba;
+  width: 9px;
+  height: 11px;
+  transform: rotateZ(4deg) rotateX(127deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(13).ryu {
+    animation: rotate13 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate13 {
+  100% {
+    transform: rotateY(54deg) rotateZ(151deg) rotateX(178deg) translateZ(500px); } }
+@keyframes rotate_13 {
+  100% {
+    transform: rotateY(-207deg) rotateZ(233deg) rotateX(418deg) translateZ(400px) scale(1); } }
+.particle:nth-child(14) {
+  animation: rotate14 20s 0s ease-in-out forwards, rotate_14 20s 20s ease-in-out forwards;
+  color: #9b8fef;
+  width: 32px;
+  height: 24px;
+  transform: rotateZ(271deg) rotateX(214deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(14).ryu {
+    animation: rotate14 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate14 {
+  100% {
+    transform: rotateY(352deg) rotateZ(219deg) rotateX(123deg) translateZ(500px); } }
+@keyframes rotate_14 {
+  100% {
+    transform: rotateY(-672deg) rotateZ(70deg) rotateX(706deg) translateZ(400px) scale(1); } }
+.particle:nth-child(15) {
+  animation: rotate15 20s 0s ease-in-out forwards, rotate_15 20s 20s ease-in-out forwards;
+  color: #afef8f;
+  width: 20px;
+  height: 126px;
+  transform: rotateZ(109deg) rotateX(150deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(15).ryu {
+    animation: rotate15 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate15 {
+  100% {
+    transform: rotateY(257deg) rotateZ(27deg) rotateX(270deg) translateZ(500px); } }
+@keyframes rotate_15 {
+  100% {
+    transform: rotateY(-768deg) rotateZ(161deg) rotateX(476deg) translateZ(400px) scale(1); } }
+.particle:nth-child(16) {
+  animation: rotate16 20s 0s ease-in-out forwards, rotate_16 20s 20s ease-in-out forwards;
+  color: #8fdaef;
+  width: 5px;
+  height: 5px;
+  transform: rotateZ(176deg) rotateX(8deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(16).ryu {
+    animation: rotate16 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate16 {
+  100% {
+    transform: rotateY(68deg) rotateZ(99deg) rotateX(272deg) translateZ(500px); } }
+@keyframes rotate_16 {
+  100% {
+    transform: rotateY(-561deg) rotateZ(180deg) rotateX(174deg) translateZ(400px) scale(1); } }
+.particle:nth-child(17) {
+  animation: rotate17 20s 0s ease-in-out forwards, rotate_17 20s 20s ease-in-out forwards;
+  color: #8fefda;
+  width: 98px;
+  height: 63px;
+  transform: rotateZ(258deg) rotateX(208deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(17).ryu {
+    animation: rotate17 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate17 {
+  100% {
+    transform: rotateY(118deg) rotateZ(160deg) rotateX(210deg) translateZ(500px); } }
+@keyframes rotate_17 {
+  100% {
+    transform: rotateY(-756deg) rotateZ(57deg) rotateX(484deg) translateZ(400px) scale(1); } }
+.particle:nth-child(18) {
+  animation: rotate18 20s 0s ease-in-out forwards, rotate_18 20s 20s ease-in-out forwards;
+  color: #efd48f;
+  width: 54px;
+  height: 50px;
+  transform: rotateZ(191deg) rotateX(273deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(18).ryu {
+    animation: rotate18 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate18 {
+  100% {
+    transform: rotateY(103deg) rotateZ(209deg) rotateX(330deg) translateZ(500px); } }
+@keyframes rotate_18 {
+  100% {
+    transform: rotateY(-360deg) rotateZ(224deg) rotateX(718deg) translateZ(400px) scale(1); } }
+.particle:nth-child(19) {
+  animation: rotate19 20s 0s ease-in-out forwards, rotate_19 20s 20s ease-in-out forwards;
+  color: #ba8fef;
+  width: 39px;
+  height: 110px;
+  transform: rotateZ(280deg) rotateX(170deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(19).ryu {
+    animation: rotate19 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate19 {
+  100% {
+    transform: rotateY(192deg) rotateZ(199deg) rotateX(289deg) translateZ(500px); } }
+@keyframes rotate_19 {
+  100% {
+    transform: rotateY(-753deg) rotateZ(210deg) rotateX(248deg) translateZ(400px) scale(1); } }
+.particle:nth-child(20) {
+  animation: rotate20 20s 0s ease-in-out forwards, rotate_20 20s 20s ease-in-out forwards;
+  color: #ce8fef;
+  width: 120px;
+  height: 12px;
+  transform: rotateZ(308deg) rotateX(292deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(20).ryu {
+    animation: rotate20 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate20 {
+  100% {
+    transform: rotateY(171deg) rotateZ(65deg) rotateX(141deg) translateZ(500px); } }
+@keyframes rotate_20 {
+  100% {
+    transform: rotateY(-174deg) rotateZ(348deg) rotateX(538deg) translateZ(400px) scale(1); } }
+.particle:nth-child(21) {
+  animation: rotate21 20s 0s ease-in-out forwards, rotate_21 20s 20s ease-in-out forwards;
+  color: #a9ef8f;
+  width: 99px;
+  height: 90px;
+  transform: rotateZ(158deg) rotateX(89deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(21).ryu {
+    animation: rotate21 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate21 {
+  100% {
+    transform: rotateY(349deg) rotateZ(190deg) rotateX(131deg) translateZ(500px); } }
+@keyframes rotate_21 {
+  100% {
+    transform: rotateY(-162deg) rotateZ(135deg) rotateX(284deg) translateZ(400px) scale(1); } }
+.particle:nth-child(22) {
+  animation: rotate22 20s 0s ease-in-out forwards, rotate_22 20s 20s ease-in-out forwards;
+  color: #8fa9ef;
+  width: 9px;
+  height: 120px;
+  transform: rotateZ(242deg) rotateX(305deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(22).ryu {
+    animation: rotate22 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate22 {
+  100% {
+    transform: rotateY(253deg) rotateZ(123deg) rotateX(176deg) translateZ(500px); } }
+@keyframes rotate_22 {
+  100% {
+    transform: rotateY(-516deg) rotateZ(63deg) rotateX(174deg) translateZ(400px) scale(1); } }
+.particle:nth-child(23) {
+  animation: rotate23 20s 0s ease-in-out forwards, rotate_23 20s 20s ease-in-out forwards;
+  color: #bfef8f;
+  width: 100px;
+  height: 28px;
+  transform: rotateZ(265deg) rotateX(128deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(23).ryu {
+    animation: rotate23 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate23 {
+  100% {
+    transform: rotateY(341deg) rotateZ(281deg) rotateX(23deg) translateZ(500px); } }
+@keyframes rotate_23 {
+  100% {
+    transform: rotateY(-201deg) rotateZ(73deg) rotateX(368deg) translateZ(400px) scale(1); } }
+.particle:nth-child(24) {
+  animation: rotate24 20s 0s ease-in-out forwards, rotate_24 20s 20s ease-in-out forwards;
+  color: #ef8fbc;
+  width: 1px;
+  height: 63px;
+  transform: rotateZ(292deg) rotateX(79deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(24).ryu {
+    animation: rotate24 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate24 {
+  100% {
+    transform: rotateY(33deg) rotateZ(203deg) rotateX(63deg) translateZ(500px); } }
+@keyframes rotate_24 {
+  100% {
+    transform: rotateY(-216deg) rotateZ(13deg) rotateX(292deg) translateZ(400px) scale(1); } }
+.particle:nth-child(25) {
+  animation: rotate25 20s 0s ease-in-out forwards, rotate_25 20s 20s ease-in-out forwards;
+  color: #e4ef8f;
+  width: 99px;
+  height: 90px;
+  transform: rotateZ(225deg) rotateX(210deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(25).ryu {
+    animation: rotate25 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate25 {
+  100% {
+    transform: rotateY(358deg) rotateZ(265deg) rotateX(262deg) translateZ(500px); } }
+@keyframes rotate_25 {
+  100% {
+    transform: rotateY(-840deg) rotateZ(219deg) rotateX(70deg) translateZ(400px) scale(1); } }
+.particle:nth-child(26) {
+  animation: rotate26 20s 0s ease-in-out forwards, rotate_26 20s 20s ease-in-out forwards;
+  color: #bfef8f;
+  width: 5px;
+  height: 75px;
+  transform: rotateZ(232deg) rotateX(7deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(26).ryu {
+    animation: rotate26 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate26 {
+  100% {
+    transform: rotateY(51deg) rotateZ(63deg) rotateX(331deg) translateZ(500px); } }
+@keyframes rotate_26 {
+  100% {
+    transform: rotateY(-375deg) rotateZ(254deg) rotateX(458deg) translateZ(400px) scale(1); } }
+.particle:nth-child(27) {
+  animation: rotate27 20s 0s ease-in-out forwards, rotate_27 20s 20s ease-in-out forwards;
+  color: #ef8f9b;
+  width: 14px;
+  height: 28px;
+  transform: rotateZ(304deg) rotateX(25deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(27).ryu {
+    animation: rotate27 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate27 {
+  100% {
+    transform: rotateY(228deg) rotateZ(326deg) rotateX(220deg) translateZ(500px); } }
+@keyframes rotate_27 {
+  100% {
+    transform: rotateY(-1050deg) rotateZ(64deg) rotateX(76deg) translateZ(400px) scale(1); } }
+.particle:nth-child(28) {
+  animation: rotate28 20s 0s ease-in-out forwards, rotate_28 20s 20s ease-in-out forwards;
+  color: #d78fef;
+  width: 30px;
+  height: 18px;
+  transform: rotateZ(125deg) rotateX(334deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(28).ryu {
+    animation: rotate28 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate28 {
+  100% {
+    transform: rotateY(316deg) rotateZ(48deg) rotateX(45deg) translateZ(500px); } }
+@keyframes rotate_28 {
+  100% {
+    transform: rotateY(-636deg) rotateZ(116deg) rotateX(482deg) translateZ(400px) scale(1); } }
+.particle:nth-child(29) {
+  animation: rotate29 20s 0s ease-in-out forwards, rotate_29 20s 20s ease-in-out forwards;
+  color: #8fefa7;
+  width: 21px;
+  height: 66px;
+  transform: rotateZ(6deg) rotateX(359deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(29).ryu {
+    animation: rotate29 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate29 {
+  100% {
+    transform: rotateY(275deg) rotateZ(204deg) rotateX(201deg) translateZ(500px); } }
+@keyframes rotate_29 {
+  100% {
+    transform: rotateY(-930deg) rotateZ(102deg) rotateX(6deg) translateZ(400px) scale(1); } }
+.particle:nth-child(30) {
+  animation: rotate30 20s 0s ease-in-out forwards, rotate_30 20s 20s ease-in-out forwards;
+  color: #efb48f;
+  width: 24px;
+  height: 40px;
+  transform: rotateZ(176deg) rotateX(276deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(30).ryu {
+    animation: rotate30 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate30 {
+  100% {
+    transform: rotateY(162deg) rotateZ(359deg) rotateX(316deg) translateZ(500px); } }
+@keyframes rotate_30 {
+  100% {
+    transform: rotateY(-96deg) rotateZ(3deg) rotateX(160deg) translateZ(400px) scale(1); } }
+.particle:nth-child(31) {
+  animation: rotate31 20s 0s ease-in-out forwards, rotate_31 20s 20s ease-in-out forwards;
+  color: #8fbfef;
+  width: 135px;
+  height: 10px;
+  transform: rotateZ(255deg) rotateX(189deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(31).ryu {
+    animation: rotate31 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate31 {
+  100% {
+    transform: rotateY(55deg) rotateZ(55deg) rotateX(248deg) translateZ(500px); } }
+@keyframes rotate_31 {
+  100% {
+    transform: rotateY(-78deg) rotateZ(208deg) rotateX(446deg) translateZ(400px) scale(1); } }
+.particle:nth-child(32) {
+  animation: rotate32 20s 0s ease-in-out forwards, rotate_32 20s 20s ease-in-out forwards;
+  color: #8fef93;
+  width: 45px;
+  height: 40px;
+  transform: rotateZ(230deg) rotateX(279deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(32).ryu {
+    animation: rotate32 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate32 {
+  100% {
+    transform: rotateY(21deg) rotateZ(314deg) rotateX(238deg) translateZ(500px); } }
+@keyframes rotate_32 {
+  100% {
+    transform: rotateY(-555deg) rotateZ(118deg) rotateX(386deg) translateZ(400px) scale(1); } }
+.particle:nth-child(33) {
+  animation: rotate33 20s 0s ease-in-out forwards, rotate_33 20s 20s ease-in-out forwards;
+  color: #ce8fef;
+  width: 10px;
+  height: 90px;
+  transform: rotateZ(209deg) rotateX(154deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(33).ryu {
+    animation: rotate33 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate33 {
+  100% {
+    transform: rotateY(151deg) rotateZ(343deg) rotateX(233deg) translateZ(500px); } }
+@keyframes rotate_33 {
+  100% {
+    transform: rotateY(-456deg) rotateZ(33deg) rotateX(486deg) translateZ(400px) scale(1); } }
+.particle:nth-child(34) {
+  animation: rotate34 20s 0s ease-in-out forwards, rotate_34 20s 20s ease-in-out forwards;
+  color: #8fd4ef;
+  width: 104px;
+  height: 39px;
+  transform: rotateZ(328deg) rotateX(209deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(34).ryu {
+    animation: rotate34 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate34 {
+  100% {
+    transform: rotateY(217deg) rotateZ(246deg) rotateX(154deg) translateZ(500px); } }
+@keyframes rotate_34 {
+  100% {
+    transform: rotateY(-420deg) rotateZ(307deg) rotateX(398deg) translateZ(400px) scale(1); } }
+.particle:nth-child(35) {
+  animation: rotate35 20s 0s ease-in-out forwards, rotate_35 20s 20s ease-in-out forwards;
+  color: #d98fef;
+  width: 9px;
+  height: 64px;
+  transform: rotateZ(344deg) rotateX(241deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(35).ryu {
+    animation: rotate35 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate35 {
+  100% {
+    transform: rotateY(204deg) rotateZ(54deg) rotateX(163deg) translateZ(500px); } }
+@keyframes rotate_35 {
+  100% {
+    transform: rotateY(-522deg) rotateZ(64deg) rotateX(122deg) translateZ(400px) scale(1); } }
+.particle:nth-child(36) {
+  animation: rotate36 20s 0s ease-in-out forwards, rotate_36 20s 20s ease-in-out forwards;
+  color: #ef8fb7;
+  width: 91px;
+  height: 24px;
+  transform: rotateZ(231deg) rotateX(155deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(36).ryu {
+    animation: rotate36 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate36 {
+  100% {
+    transform: rotateY(164deg) rotateZ(142deg) rotateX(188deg) translateZ(500px); } }
+@keyframes rotate_36 {
+  100% {
+    transform: rotateY(-393deg) rotateZ(259deg) rotateX(62deg) translateZ(400px) scale(1); } }
+.particle:nth-child(37) {
+  animation: rotate37 20s 0s ease-in-out forwards, rotate_37 20s 20s ease-in-out forwards;
+  color: #bcef8f;
+  width: 2px;
+  height: 14px;
+  transform: rotateZ(68deg) rotateX(337deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(37).ryu {
+    animation: rotate37 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate37 {
+  100% {
+    transform: rotateY(85deg) rotateZ(346deg) rotateX(318deg) translateZ(500px); } }
+@keyframes rotate_37 {
+  100% {
+    transform: rotateY(-867deg) rotateZ(346deg) rotateX(366deg) translateZ(400px) scale(1); } }
+.particle:nth-child(38) {
+  animation: rotate38 20s 0s ease-in-out forwards, rotate_38 20s 20s ease-in-out forwards;
+  color: #ef8fac;
+  width: 60px;
+  height: 26px;
+  transform: rotateZ(55deg) rotateX(19deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(38).ryu {
+    animation: rotate38 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate38 {
+  100% {
+    transform: rotateY(323deg) rotateZ(107deg) rotateX(293deg) translateZ(500px); } }
+@keyframes rotate_38 {
+  100% {
+    transform: rotateY(-678deg) rotateZ(336deg) rotateX(330deg) translateZ(400px) scale(1); } }
+.particle:nth-child(39) {
+  animation: rotate39 20s 0s ease-in-out forwards, rotate_39 20s 20s ease-in-out forwards;
+  color: #efa18f;
+  width: 56px;
+  height: 33px;
+  transform: rotateZ(221deg) rotateX(204deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(39).ryu {
+    animation: rotate39 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate39 {
+  100% {
+    transform: rotateY(106deg) rotateZ(268deg) rotateX(236deg) translateZ(500px); } }
+@keyframes rotate_39 {
+  100% {
+    transform: rotateY(-876deg) rotateZ(78deg) rotateX(302deg) translateZ(400px) scale(1); } }
+.particle:nth-child(40) {
+  animation: rotate40 20s 0s ease-in-out forwards, rotate_40 20s 20s ease-in-out forwards;
+  color: #efae8f;
+  width: 49px;
+  height: 91px;
+  transform: rotateZ(265deg) rotateX(13deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(40).ryu {
+    animation: rotate40 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate40 {
+  100% {
+    transform: rotateY(200deg) rotateZ(342deg) rotateX(234deg) translateZ(500px); } }
+@keyframes rotate_40 {
+  100% {
+    transform: rotateY(-447deg) rotateZ(347deg) rotateX(626deg) translateZ(400px) scale(1); } }
+.particle:nth-child(41) {
+  animation: rotate41 20s 0s ease-in-out forwards, rotate_41 20s 20s ease-in-out forwards;
+  color: #9f8fef;
+  width: 44px;
+  height: 90px;
+  transform: rotateZ(240deg) rotateX(251deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(41).ryu {
+    animation: rotate41 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate41 {
+  100% {
+    transform: rotateY(300deg) rotateZ(227deg) rotateX(223deg) translateZ(500px); } }
+@keyframes rotate_41 {
+  100% {
+    transform: rotateY(-768deg) rotateZ(228deg) rotateX(378deg) translateZ(400px) scale(1); } }
+.particle:nth-child(42) {
+  animation: rotate42 20s 0s ease-in-out forwards, rotate_42 20s 20s ease-in-out forwards;
+  color: #edef8f;
+  width: 52px;
+  height: 60px;
+  transform: rotateZ(214deg) rotateX(48deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(42).ryu {
+    animation: rotate42 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate42 {
+  100% {
+    transform: rotateY(191deg) rotateZ(224deg) rotateX(320deg) translateZ(500px); } }
+@keyframes rotate_42 {
+  100% {
+    transform: rotateY(-213deg) rotateZ(119deg) rotateX(364deg) translateZ(400px) scale(1); } }
+.particle:nth-child(43) {
+  animation: rotate43 20s 0s ease-in-out forwards, rotate_43 20s 20s ease-in-out forwards;
+  color: #c9ef8f;
+  width: 88px;
+  height: 36px;
+  transform: rotateZ(358deg) rotateX(306deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(43).ryu {
+    animation: rotate43 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate43 {
+  100% {
+    transform: rotateY(180deg) rotateZ(143deg) rotateX(339deg) translateZ(500px); } }
+@keyframes rotate_43 {
+  100% {
+    transform: rotateY(-456deg) rotateZ(90deg) rotateX(656deg) translateZ(400px) scale(1); } }
+.particle:nth-child(44) {
+  animation: rotate44 20s 0s ease-in-out forwards, rotate_44 20s 20s ease-in-out forwards;
+  color: #8fbeef;
+  width: 5px;
+  height: 84px;
+  transform: rotateZ(266deg) rotateX(360deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(44).ryu {
+    animation: rotate44 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate44 {
+  100% {
+    transform: rotateY(253deg) rotateZ(324deg) rotateX(53deg) translateZ(500px); } }
+@keyframes rotate_44 {
+  100% {
+    transform: rotateY(-900deg) rotateZ(225deg) rotateX(396deg) translateZ(400px) scale(1); } }
+.particle:nth-child(45) {
+  animation: rotate45 20s 0s ease-in-out forwards, rotate_45 20s 20s ease-in-out forwards;
+  color: #8fefab;
+  width: 6px;
+  height: 36px;
+  transform: rotateZ(143deg) rotateX(52deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(45).ryu {
+    animation: rotate45 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate45 {
+  100% {
+    transform: rotateY(48deg) rotateZ(41deg) rotateX(237deg) translateZ(500px); } }
+@keyframes rotate_45 {
+  100% {
+    transform: rotateY(-1047deg) rotateZ(315deg) rotateX(158deg) translateZ(400px) scale(1); } }
+.particle:nth-child(46) {
+  animation: rotate46 20s 0s ease-in-out forwards, rotate_46 20s 20s ease-in-out forwards;
+  color: #8fefed;
+  width: 21px;
+  height: 50px;
+  transform: rotateZ(27deg) rotateX(34deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(46).ryu {
+    animation: rotate46 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate46 {
+  100% {
+    transform: rotateY(231deg) rotateZ(93deg) rotateX(317deg) translateZ(500px); } }
+@keyframes rotate_46 {
+  100% {
+    transform: rotateY(-357deg) rotateZ(39deg) rotateX(416deg) translateZ(400px) scale(1); } }
+.particle:nth-child(47) {
+  animation: rotate47 20s 0s ease-in-out forwards, rotate_47 20s 20s ease-in-out forwards;
+  color: #8fc4ef;
+  width: 70px;
+  height: 63px;
+  transform: rotateZ(305deg) rotateX(87deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(47).ryu {
+    animation: rotate47 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate47 {
+  100% {
+    transform: rotateY(308deg) rotateZ(36deg) rotateX(252deg) translateZ(500px); } }
+@keyframes rotate_47 {
+  100% {
+    transform: rotateY(-672deg) rotateZ(135deg) rotateX(636deg) translateZ(400px) scale(1); } }
+.particle:nth-child(48) {
+  animation: rotate48 20s 0s ease-in-out forwards, rotate_48 20s 20s ease-in-out forwards;
+  color: #8fc6ef;
+  width: 40px;
+  height: 33px;
+  transform: rotateZ(199deg) rotateX(164deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(48).ryu {
+    animation: rotate48 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate48 {
+  100% {
+    transform: rotateY(187deg) rotateZ(224deg) rotateX(357deg) translateZ(500px); } }
+@keyframes rotate_48 {
+  100% {
+    transform: rotateY(-300deg) rotateZ(172deg) rotateX(510deg) translateZ(400px) scale(1); } }
+.particle:nth-child(49) {
+  animation: rotate49 20s 0s ease-in-out forwards, rotate_49 20s 20s ease-in-out forwards;
+  color: #8f9bef;
+  width: 30px;
+  height: 120px;
+  transform: rotateZ(251deg) rotateX(227deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(49).ryu {
+    animation: rotate49 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate49 {
+  100% {
+    transform: rotateY(17deg) rotateZ(321deg) rotateX(98deg) translateZ(500px); } }
+@keyframes rotate_49 {
+  100% {
+    transform: rotateY(-864deg) rotateZ(182deg) rotateX(84deg) translateZ(400px) scale(1); } }
+.particle:nth-child(50) {
+  animation: rotate50 20s 0s ease-in-out forwards, rotate_50 20s 20s ease-in-out forwards;
+  color: #8fefe9;
+  width: 70px;
+  height: 7px;
+  transform: rotateZ(356deg) rotateX(245deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(50).ryu {
+    animation: rotate50 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate50 {
+  100% {
+    transform: rotateY(334deg) rotateZ(61deg) rotateX(360deg) translateZ(500px); } }
+@keyframes rotate_50 {
+  100% {
+    transform: rotateY(-621deg) rotateZ(312deg) rotateX(522deg) translateZ(400px) scale(1); } }
+.particle:nth-child(51) {
+  animation: rotate51 20s 0s ease-in-out forwards, rotate_51 20s 20s ease-in-out forwards;
+  color: #e9ef8f;
+  width: 18px;
+  height: 100px;
+  transform: rotateZ(297deg) rotateX(222deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(51).ryu {
+    animation: rotate51 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate51 {
+  100% {
+    transform: rotateY(113deg) rotateZ(299deg) rotateX(234deg) translateZ(500px); } }
+@keyframes rotate_51 {
+  100% {
+    transform: rotateY(-6deg) rotateZ(200deg) rotateX(138deg) translateZ(400px) scale(1); } }
+.particle:nth-child(52) {
+  animation: rotate52 20s 0s ease-in-out forwards, rotate_52 20s 20s ease-in-out forwards;
+  color: #b78fef;
+  width: 45px;
+  height: 84px;
+  transform: rotateZ(232deg) rotateX(2deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(52).ryu {
+    animation: rotate52 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate52 {
+  100% {
+    transform: rotateY(287deg) rotateZ(147deg) rotateX(87deg) translateZ(500px); } }
+@keyframes rotate_52 {
+  100% {
+    transform: rotateY(-207deg) rotateZ(136deg) rotateX(382deg) translateZ(400px) scale(1); } }
+.particle:nth-child(53) {
+  animation: rotate53 20s 0s ease-in-out forwards, rotate_53 20s 20s ease-in-out forwards;
+  color: #ef8fc9;
+  width: 63px;
+  height: 60px;
+  transform: rotateZ(264deg) rotateX(186deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(53).ryu {
+    animation: rotate53 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate53 {
+  100% {
+    transform: rotateY(119deg) rotateZ(153deg) rotateX(158deg) translateZ(500px); } }
+@keyframes rotate_53 {
+  100% {
+    transform: rotateY(-606deg) rotateZ(334deg) rotateX(32deg) translateZ(400px) scale(1); } }
+.particle:nth-child(54) {
+  animation: rotate54 20s 0s ease-in-out forwards, rotate_54 20s 20s ease-in-out forwards;
+  color: #efb68f;
+  width: 49px;
+  height: 117px;
+  transform: rotateZ(206deg) rotateX(27deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(54).ryu {
+    animation: rotate54 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate54 {
+  100% {
+    transform: rotateY(30deg) rotateZ(275deg) rotateX(128deg) translateZ(500px); } }
+@keyframes rotate_54 {
+  100% {
+    transform: rotateY(-1038deg) rotateZ(126deg) rotateX(490deg) translateZ(400px) scale(1); } }
+.particle:nth-child(55) {
+  animation: rotate55 20s 0s ease-in-out forwards, rotate_55 20s 20s ease-in-out forwards;
+  color: #ef938f;
+  width: 12px;
+  height: 14px;
+  transform: rotateZ(279deg) rotateX(173deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(55).ryu {
+    animation: rotate55 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate55 {
+  100% {
+    transform: rotateY(80deg) rotateZ(22deg) rotateX(346deg) translateZ(500px); } }
+@keyframes rotate_55 {
+  100% {
+    transform: rotateY(-636deg) rotateZ(59deg) rotateX(204deg) translateZ(400px) scale(1); } }
+.particle:nth-child(56) {
+  animation: rotate56 20s 0s ease-in-out forwards, rotate_56 20s 20s ease-in-out forwards;
+  color: #efac8f;
+  width: 2px;
+  height: 30px;
+  transform: rotateZ(132deg) rotateX(86deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(56).ryu {
+    animation: rotate56 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate56 {
+  100% {
+    transform: rotateY(81deg) rotateZ(342deg) rotateX(214deg) translateZ(500px); } }
+@keyframes rotate_56 {
+  100% {
+    transform: rotateY(-732deg) rotateZ(5deg) rotateX(568deg) translateZ(400px) scale(1); } }
+.particle:nth-child(57) {
+  animation: rotate57 20s 0s ease-in-out forwards, rotate_57 20s 20s ease-in-out forwards;
+  color: #8fefa7;
+  width: 4px;
+  height: 150px;
+  transform: rotateZ(235deg) rotateX(215deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(57).ryu {
+    animation: rotate57 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate57 {
+  100% {
+    transform: rotateY(316deg) rotateZ(57deg) rotateX(202deg) translateZ(500px); } }
+@keyframes rotate_57 {
+  100% {
+    transform: rotateY(-57deg) rotateZ(127deg) rotateX(58deg) translateZ(400px) scale(1); } }
+.particle:nth-child(58) {
+  animation: rotate58 20s 0s ease-in-out forwards, rotate_58 20s 20s ease-in-out forwards;
+  color: #c18fef;
+  width: 12px;
+  height: 21px;
+  transform: rotateZ(350deg) rotateX(47deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(58).ryu {
+    animation: rotate58 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate58 {
+  100% {
+    transform: rotateY(33deg) rotateZ(73deg) rotateX(140deg) translateZ(500px); } }
+@keyframes rotate_58 {
+  100% {
+    transform: rotateY(-258deg) rotateZ(321deg) rotateX(60deg) translateZ(400px) scale(1); } }
+.particle:nth-child(59) {
+  animation: rotate59 20s 0s ease-in-out forwards, rotate_59 20s 20s ease-in-out forwards;
+  color: #8fc2ef;
+  width: 60px;
+  height: 84px;
+  transform: rotateZ(319deg) rotateX(296deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(59).ryu {
+    animation: rotate59 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate59 {
+  100% {
+    transform: rotateY(312deg) rotateZ(156deg) rotateX(220deg) translateZ(500px); } }
+@keyframes rotate_59 {
+  100% {
+    transform: rotateY(-570deg) rotateZ(85deg) rotateX(394deg) translateZ(400px) scale(1); } }
+.particle:nth-child(60) {
+  animation: rotate60 20s 0s ease-in-out forwards, rotate_60 20s 20s ease-in-out forwards;
+  color: #a3ef8f;
+  width: 100px;
+  height: 45px;
+  transform: rotateZ(348deg) rotateX(313deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(60).ryu {
+    animation: rotate60 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate60 {
+  100% {
+    transform: rotateY(192deg) rotateZ(204deg) rotateX(68deg) translateZ(500px); } }
+@keyframes rotate_60 {
+  100% {
+    transform: rotateY(-924deg) rotateZ(310deg) rotateX(148deg) translateZ(400px) scale(1); } }
+.particle:nth-child(61) {
+  animation: rotate61 20s 0s ease-in-out forwards, rotate_61 20s 20s ease-in-out forwards;
+  color: #918fef;
+  width: 77px;
+  height: 44px;
+  transform: rotateZ(267deg) rotateX(320deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(61).ryu {
+    animation: rotate61 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate61 {
+  100% {
+    transform: rotateY(192deg) rotateZ(139deg) rotateX(82deg) translateZ(500px); } }
+@keyframes rotate_61 {
+  100% {
+    transform: rotateY(-966deg) rotateZ(168deg) rotateX(10deg) translateZ(400px) scale(1); } }
+.particle:nth-child(62) {
+  animation: rotate62 20s 0s ease-in-out forwards, rotate_62 20s 20s ease-in-out forwards;
+  color: #8fd4ef;
+  width: 36px;
+  height: 8px;
+  transform: rotateZ(202deg) rotateX(108deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(62).ryu {
+    animation: rotate62 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate62 {
+  100% {
+    transform: rotateY(222deg) rotateZ(277deg) rotateX(269deg) translateZ(500px); } }
+@keyframes rotate_62 {
+  100% {
+    transform: rotateY(-750deg) rotateZ(13deg) rotateX(420deg) translateZ(400px) scale(1); } }
+.particle:nth-child(63) {
+  animation: rotate63 20s 0s ease-in-out forwards, rotate_63 20s 20s ease-in-out forwards;
+  color: #efa38f;
+  width: 6px;
+  height: 56px;
+  transform: rotateZ(285deg) rotateX(89deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(63).ryu {
+    animation: rotate63 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate63 {
+  100% {
+    transform: rotateY(324deg) rotateZ(37deg) rotateX(333deg) translateZ(500px); } }
+@keyframes rotate_63 {
+  100% {
+    transform: rotateY(-948deg) rotateZ(195deg) rotateX(604deg) translateZ(400px) scale(1); } }
+.particle:nth-child(64) {
+  animation: rotate64 20s 0s ease-in-out forwards, rotate_64 20s 20s ease-in-out forwards;
+  color: #8fefd6;
+  width: 45px;
+  height: 50px;
+  transform: rotateZ(139deg) rotateX(269deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(64).ryu {
+    animation: rotate64 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate64 {
+  100% {
+    transform: rotateY(138deg) rotateZ(87deg) rotateX(190deg) translateZ(500px); } }
+@keyframes rotate_64 {
+  100% {
+    transform: rotateY(-678deg) rotateZ(346deg) rotateX(314deg) translateZ(400px) scale(1); } }
+.particle:nth-child(65) {
+  animation: rotate65 20s 0s ease-in-out forwards, rotate_65 20s 20s ease-in-out forwards;
+  color: #acef8f;
+  width: 14px;
+  height: 16px;
+  transform: rotateZ(330deg) rotateX(9deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(65).ryu {
+    animation: rotate65 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate65 {
+  100% {
+    transform: rotateY(116deg) rotateZ(227deg) rotateX(265deg) translateZ(500px); } }
+@keyframes rotate_65 {
+  100% {
+    transform: rotateY(-588deg) rotateZ(266deg) rotateX(284deg) translateZ(400px) scale(1); } }
+.particle:nth-child(66) {
+  animation: rotate66 20s 0s ease-in-out forwards, rotate_66 20s 20s ease-in-out forwards;
+  color: #8fcfef;
+  width: 50px;
+  height: 28px;
+  transform: rotateZ(355deg) rotateX(177deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(66).ryu {
+    animation: rotate66 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate66 {
+  100% {
+    transform: rotateY(105deg) rotateZ(226deg) rotateX(30deg) translateZ(500px); } }
+@keyframes rotate_66 {
+  100% {
+    transform: rotateY(-306deg) rotateZ(145deg) rotateX(34deg) translateZ(400px) scale(1); } }
+.particle:nth-child(67) {
+  animation: rotate67 20s 0s ease-in-out forwards, rotate_67 20s 20s ease-in-out forwards;
+  color: #efa68f;
+  width: 21px;
+  height: 12px;
+  transform: rotateZ(147deg) rotateX(129deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(67).ryu {
+    animation: rotate67 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate67 {
+  100% {
+    transform: rotateY(5deg) rotateZ(106deg) rotateX(7deg) translateZ(500px); } }
+@keyframes rotate_67 {
+  100% {
+    transform: rotateY(-597deg) rotateZ(106deg) rotateX(104deg) translateZ(400px) scale(1); } }
+.particle:nth-child(68) {
+  animation: rotate68 20s 0s ease-in-out forwards, rotate_68 20s 20s ease-in-out forwards;
+  color: #8fefda;
+  width: 80px;
+  height: 14px;
+  transform: rotateZ(37deg) rotateX(335deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(68).ryu {
+    animation: rotate68 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate68 {
+  100% {
+    transform: rotateY(248deg) rotateZ(293deg) rotateX(183deg) translateZ(500px); } }
+@keyframes rotate_68 {
+  100% {
+    transform: rotateY(-69deg) rotateZ(53deg) rotateX(530deg) translateZ(400px) scale(1); } }
+.particle:nth-child(69) {
+  animation: rotate69 20s 0s ease-in-out forwards, rotate_69 20s 20s ease-in-out forwards;
+  color: #8fefae;
+  width: 120px;
+  height: 14px;
+  transform: rotateZ(343deg) rotateX(98deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(69).ryu {
+    animation: rotate69 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate69 {
+  100% {
+    transform: rotateY(176deg) rotateZ(110deg) rotateX(53deg) translateZ(500px); } }
+@keyframes rotate_69 {
+  100% {
+    transform: rotateY(-420deg) rotateZ(84deg) rotateX(312deg) translateZ(400px) scale(1); } }
+.particle:nth-child(70) {
+  animation: rotate70 20s 0s ease-in-out forwards, rotate_70 20s 20s ease-in-out forwards;
+  color: #ef8fb4;
+  width: 60px;
+  height: 112px;
+  transform: rotateZ(282deg) rotateX(16deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(70).ryu {
+    animation: rotate70 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate70 {
+  100% {
+    transform: rotateY(360deg) rotateZ(359deg) rotateX(73deg) translateZ(500px); } }
+@keyframes rotate_70 {
+  100% {
+    transform: rotateY(-810deg) rotateZ(340deg) rotateX(100deg) translateZ(400px) scale(1); } }
+.particle:nth-child(71) {
+  animation: rotate71 20s 0s ease-in-out forwards, rotate_71 20s 20s ease-in-out forwards;
+  color: #d7ef8f;
+  width: 72px;
+  height: 96px;
+  transform: rotateZ(227deg) rotateX(37deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(71).ryu {
+    animation: rotate71 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate71 {
+  100% {
+    transform: rotateY(107deg) rotateZ(13deg) rotateX(111deg) translateZ(500px); } }
+@keyframes rotate_71 {
+  100% {
+    transform: rotateY(-594deg) rotateZ(195deg) rotateX(138deg) translateZ(400px) scale(1); } }
+.particle:nth-child(72) {
+  animation: rotate72 20s 0s ease-in-out forwards, rotate_72 20s 20s ease-in-out forwards;
+  color: #efb68f;
+  width: 64px;
+  height: 70px;
+  transform: rotateZ(178deg) rotateX(248deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(72).ryu {
+    animation: rotate72 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate72 {
+  100% {
+    transform: rotateY(359deg) rotateZ(122deg) rotateX(31deg) translateZ(500px); } }
+@keyframes rotate_72 {
+  100% {
+    transform: rotateY(-906deg) rotateZ(305deg) rotateX(210deg) translateZ(400px) scale(1); } }
+.particle:nth-child(73) {
+  animation: rotate73 20s 0s ease-in-out forwards, rotate_73 20s 20s ease-in-out forwards;
+  color: #8fefab;
+  width: 13px;
+  height: 12px;
+  transform: rotateZ(325deg) rotateX(15deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(73).ryu {
+    animation: rotate73 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate73 {
+  100% {
+    transform: rotateY(22deg) rotateZ(206deg) rotateX(189deg) translateZ(500px); } }
+@keyframes rotate_73 {
+  100% {
+    transform: rotateY(-249deg) rotateZ(122deg) rotateX(282deg) translateZ(400px) scale(1); } }
+.particle:nth-child(74) {
+  animation: rotate74 20s 0s ease-in-out forwards, rotate_74 20s 20s ease-in-out forwards;
+  color: #b7ef8f;
+  width: 75px;
+  height: 48px;
+  transform: rotateZ(288deg) rotateX(44deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(74).ryu {
+    animation: rotate74 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate74 {
+  100% {
+    transform: rotateY(285deg) rotateZ(14deg) rotateX(262deg) translateZ(500px); } }
+@keyframes rotate_74 {
+  100% {
+    transform: rotateY(-228deg) rotateZ(260deg) rotateX(128deg) translateZ(400px) scale(1); } }
+.particle:nth-child(75) {
+  animation: rotate75 20s 0s ease-in-out forwards, rotate_75 20s 20s ease-in-out forwards;
+  color: #8fceef;
+  width: 12px;
+  height: 72px;
+  transform: rotateZ(299deg) rotateX(39deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(75).ryu {
+    animation: rotate75 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate75 {
+  100% {
+    transform: rotateY(6deg) rotateZ(286deg) rotateX(27deg) translateZ(500px); } }
+@keyframes rotate_75 {
+  100% {
+    transform: rotateY(-429deg) rotateZ(205deg) rotateX(264deg) translateZ(400px) scale(1); } }
+.particle:nth-child(76) {
+  animation: rotate76 20s 0s ease-in-out forwards, rotate_76 20s 20s ease-in-out forwards;
+  color: #ea8fef;
+  width: 42px;
+  height: 72px;
+  transform: rotateZ(116deg) rotateX(306deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(76).ryu {
+    animation: rotate76 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate76 {
+  100% {
+    transform: rotateY(200deg) rotateZ(156deg) rotateX(279deg) translateZ(500px); } }
+@keyframes rotate_76 {
+  100% {
+    transform: rotateY(-660deg) rotateZ(332deg) rotateX(250deg) translateZ(400px) scale(1); } }
+.particle:nth-child(77) {
+  animation: rotate77 20s 0s ease-in-out forwards, rotate_77 20s 20s ease-in-out forwards;
+  color: #ef9c8f;
+  width: 6px;
+  height: 96px;
+  transform: rotateZ(94deg) rotateX(61deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(77).ryu {
+    animation: rotate77 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate77 {
+  100% {
+    transform: rotateY(238deg) rotateZ(299deg) rotateX(49deg) translateZ(500px); } }
+@keyframes rotate_77 {
+  100% {
+    transform: rotateY(-474deg) rotateZ(111deg) rotateX(304deg) translateZ(400px) scale(1); } }
+.particle:nth-child(78) {
+  animation: rotate78 20s 0s ease-in-out forwards, rotate_78 20s 20s ease-in-out forwards;
+  color: #8fefb9;
+  width: 99px;
+  height: 36px;
+  transform: rotateZ(134deg) rotateX(217deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(78).ryu {
+    animation: rotate78 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate78 {
+  100% {
+    transform: rotateY(145deg) rotateZ(125deg) rotateX(259deg) translateZ(500px); } }
+@keyframes rotate_78 {
+  100% {
+    transform: rotateY(-966deg) rotateZ(60deg) rotateX(480deg) translateZ(400px) scale(1); } }
+.particle:nth-child(79) {
+  animation: rotate79 20s 0s ease-in-out forwards, rotate_79 20s 20s ease-in-out forwards;
+  color: #8fafef;
+  width: 56px;
+  height: 42px;
+  transform: rotateZ(119deg) rotateX(185deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(79).ryu {
+    animation: rotate79 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate79 {
+  100% {
+    transform: rotateY(98deg) rotateZ(13deg) rotateX(197deg) translateZ(500px); } }
+@keyframes rotate_79 {
+  100% {
+    transform: rotateY(-801deg) rotateZ(136deg) rotateX(388deg) translateZ(400px) scale(1); } }
+.particle:nth-child(80) {
+  animation: rotate80 20s 0s ease-in-out forwards, rotate_80 20s 20s ease-in-out forwards;
+  color: #efc28f;
+  width: 90px;
+  height: 5px;
+  transform: rotateZ(320deg) rotateX(316deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(80).ryu {
+    animation: rotate80 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate80 {
+  100% {
+    transform: rotateY(299deg) rotateZ(103deg) rotateX(221deg) translateZ(500px); } }
+@keyframes rotate_80 {
+  100% {
+    transform: rotateY(-513deg) rotateZ(322deg) rotateX(502deg) translateZ(400px) scale(1); } }
+.particle:nth-child(81) {
+  animation: rotate81 20s 0s ease-in-out forwards, rotate_81 20s 20s ease-in-out forwards;
+  color: #efb78f;
+  width: 18px;
+  height: 10px;
+  transform: rotateZ(197deg) rotateX(91deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(81).ryu {
+    animation: rotate81 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate81 {
+  100% {
+    transform: rotateY(311deg) rotateZ(191deg) rotateX(152deg) translateZ(500px); } }
+@keyframes rotate_81 {
+  100% {
+    transform: rotateY(-726deg) rotateZ(59deg) rotateX(668deg) translateZ(400px) scale(1); } }
+.particle:nth-child(82) {
+  animation: rotate82 20s 0s ease-in-out forwards, rotate_82 20s 20s ease-in-out forwards;
+  color: #c6ef8f;
+  width: 16px;
+  height: 70px;
+  transform: rotateZ(327deg) rotateX(346deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(82).ryu {
+    animation: rotate82 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate82 {
+  100% {
+    transform: rotateY(166deg) rotateZ(84deg) rotateX(224deg) translateZ(500px); } }
+@keyframes rotate_82 {
+  100% {
+    transform: rotateY(-588deg) rotateZ(199deg) rotateX(172deg) translateZ(400px) scale(1); } }
+.particle:nth-child(83) {
+  animation: rotate83 20s 0s ease-in-out forwards, rotate_83 20s 20s ease-in-out forwards;
+  color: #8fabef;
+  width: 7px;
+  height: 12px;
+  transform: rotateZ(83deg) rotateX(32deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(83).ryu {
+    animation: rotate83 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate83 {
+  100% {
+    transform: rotateY(300deg) rotateZ(224deg) rotateX(124deg) translateZ(500px); } }
+@keyframes rotate_83 {
+  100% {
+    transform: rotateY(-222deg) rotateZ(261deg) rotateX(426deg) translateZ(400px) scale(1); } }
+.particle:nth-child(84) {
+  animation: rotate84 20s 0s ease-in-out forwards, rotate_84 20s 20s ease-in-out forwards;
+  color: #efe28f;
+  width: 22px;
+  height: 15px;
+  transform: rotateZ(225deg) rotateX(341deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(84).ryu {
+    animation: rotate84 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate84 {
+  100% {
+    transform: rotateY(58deg) rotateZ(40deg) rotateX(257deg) translateZ(500px); } }
+@keyframes rotate_84 {
+  100% {
+    transform: rotateY(-855deg) rotateZ(220deg) rotateX(34deg) translateZ(400px) scale(1); } }
+.particle:nth-child(85) {
+  animation: rotate85 20s 0s ease-in-out forwards, rotate_85 20s 20s ease-in-out forwards;
+  color: #8fefb4;
+  width: 28px;
+  height: 18px;
+  transform: rotateZ(86deg) rotateX(312deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(85).ryu {
+    animation: rotate85 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate85 {
+  100% {
+    transform: rotateY(200deg) rotateZ(290deg) rotateX(318deg) translateZ(500px); } }
+@keyframes rotate_85 {
+  100% {
+    transform: rotateY(-483deg) rotateZ(254deg) rotateX(510deg) translateZ(400px) scale(1); } }
+.particle:nth-child(86) {
+  animation: rotate86 20s 0s ease-in-out forwards, rotate_86 20s 20s ease-in-out forwards;
+  color: #ef8fd7;
+  width: 12px;
+  height: 135px;
+  transform: rotateZ(350deg) rotateX(130deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(86).ryu {
+    animation: rotate86 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate86 {
+  100% {
+    transform: rotateY(144deg) rotateZ(259deg) rotateX(176deg) translateZ(500px); } }
+@keyframes rotate_86 {
+  100% {
+    transform: rotateY(-309deg) rotateZ(275deg) rotateX(414deg) translateZ(400px) scale(1); } }
+.particle:nth-child(87) {
+  animation: rotate87 20s 0s ease-in-out forwards, rotate_87 20s 20s ease-in-out forwards;
+  color: #ef8fc6;
+  width: 42px;
+  height: 28px;
+  transform: rotateZ(254deg) rotateX(102deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(87).ryu {
+    animation: rotate87 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate87 {
+  100% {
+    transform: rotateY(59deg) rotateZ(92deg) rotateX(276deg) translateZ(500px); } }
+@keyframes rotate_87 {
+  100% {
+    transform: rotateY(-204deg) rotateZ(122deg) rotateX(260deg) translateZ(400px) scale(1); } }
+.particle:nth-child(88) {
+  animation: rotate88 20s 0s ease-in-out forwards, rotate_88 20s 20s ease-in-out forwards;
+  color: #ef8fdf;
+  width: 4px;
+  height: 3px;
+  transform: rotateZ(26deg) rotateX(73deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(88).ryu {
+    animation: rotate88 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate88 {
+  100% {
+    transform: rotateY(128deg) rotateZ(269deg) rotateX(326deg) translateZ(500px); } }
+@keyframes rotate_88 {
+  100% {
+    transform: rotateY(-225deg) rotateZ(71deg) rotateX(556deg) translateZ(400px) scale(1); } }
+.particle:nth-child(89) {
+  animation: rotate89 20s 0s ease-in-out forwards, rotate_89 20s 20s ease-in-out forwards;
+  color: #cc8fef;
+  width: 64px;
+  height: 12px;
+  transform: rotateZ(12deg) rotateX(264deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(89).ryu {
+    animation: rotate89 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate89 {
+  100% {
+    transform: rotateY(26deg) rotateZ(36deg) rotateX(69deg) translateZ(500px); } }
+@keyframes rotate_89 {
+  100% {
+    transform: rotateY(-84deg) rotateZ(111deg) rotateX(52deg) translateZ(400px) scale(1); } }
+.particle:nth-child(90) {
+  animation: rotate90 20s 0s ease-in-out forwards, rotate_90 20s 20s ease-in-out forwards;
+  color: #ef918f;
+  width: 30px;
+  height: 150px;
+  transform: rotateZ(311deg) rotateX(52deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(90).ryu {
+    animation: rotate90 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate90 {
+  100% {
+    transform: rotateY(149deg) rotateZ(103deg) rotateX(131deg) translateZ(500px); } }
+@keyframes rotate_90 {
+  100% {
+    transform: rotateY(-903deg) rotateZ(162deg) rotateX(12deg) translateZ(400px) scale(1); } }
+.particle:nth-child(91) {
+  animation: rotate91 20s 0s ease-in-out forwards, rotate_91 20s 20s ease-in-out forwards;
+  color: #8fefb6;
+  width: 72px;
+  height: 75px;
+  transform: rotateZ(261deg) rotateX(348deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(91).ryu {
+    animation: rotate91 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate91 {
+  100% {
+    transform: rotateY(245deg) rotateZ(191deg) rotateX(270deg) translateZ(500px); } }
+@keyframes rotate_91 {
+  100% {
+    transform: rotateY(-144deg) rotateZ(278deg) rotateX(252deg) translateZ(400px) scale(1); } }
+.particle:nth-child(92) {
+  animation: rotate92 20s 0s ease-in-out forwards, rotate_92 20s 20s ease-in-out forwards;
+  color: #8f9fef;
+  width: 22px;
+  height: 72px;
+  transform: rotateZ(360deg) rotateX(360deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(92).ryu {
+    animation: rotate92 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate92 {
+  100% {
+    transform: rotateY(38deg) rotateZ(260deg) rotateX(126deg) translateZ(500px); } }
+@keyframes rotate_92 {
+  100% {
+    transform: rotateY(-492deg) rotateZ(298deg) rotateX(48deg) translateZ(400px) scale(1); } }
+.particle:nth-child(93) {
+  animation: rotate93 20s 0s ease-in-out forwards, rotate_93 20s 20s ease-in-out forwards;
+  color: #8fa4ef;
+  width: 40px;
+  height: 20px;
+  transform: rotateZ(47deg) rotateX(92deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(93).ryu {
+    animation: rotate93 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate93 {
+  100% {
+    transform: rotateY(47deg) rotateZ(359deg) rotateX(179deg) translateZ(500px); } }
+@keyframes rotate_93 {
+  100% {
+    transform: rotateY(-564deg) rotateZ(324deg) rotateX(522deg) translateZ(400px) scale(1); } }
+.particle:nth-child(94) {
+  animation: rotate94 20s 0s ease-in-out forwards, rotate_94 20s 20s ease-in-out forwards;
+  color: #8fefc6;
+  width: 40px;
+  height: 6px;
+  transform: rotateZ(159deg) rotateX(278deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(94).ryu {
+    animation: rotate94 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate94 {
+  100% {
+    transform: rotateY(203deg) rotateZ(137deg) rotateX(268deg) translateZ(500px); } }
+@keyframes rotate_94 {
+  100% {
+    transform: rotateY(-819deg) rotateZ(148deg) rotateX(96deg) translateZ(400px) scale(1); } }
+.particle:nth-child(95) {
+  animation: rotate95 20s 0s ease-in-out forwards, rotate_95 20s 20s ease-in-out forwards;
+  color: #8fefcc;
+  width: 18px;
+  height: 8px;
+  transform: rotateZ(302deg) rotateX(204deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(95).ryu {
+    animation: rotate95 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate95 {
+  100% {
+    transform: rotateY(66deg) rotateZ(157deg) rotateX(192deg) translateZ(500px); } }
+@keyframes rotate_95 {
+  100% {
+    transform: rotateY(-960deg) rotateZ(269deg) rotateX(624deg) translateZ(400px) scale(1); } }
+.particle:nth-child(96) {
+  animation: rotate96 20s 0s ease-in-out forwards, rotate_96 20s 20s ease-in-out forwards;
+  color: #8f99ef;
+  width: 11px;
+  height: 13px;
+  transform: rotateZ(281deg) rotateX(194deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(96).ryu {
+    animation: rotate96 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate96 {
+  100% {
+    transform: rotateY(332deg) rotateZ(125deg) rotateX(336deg) translateZ(500px); } }
+@keyframes rotate_96 {
+  100% {
+    transform: rotateY(-606deg) rotateZ(131deg) rotateX(156deg) translateZ(400px) scale(1); } }
+.particle:nth-child(97) {
+  animation: rotate97 20s 0s ease-in-out forwards, rotate_97 20s 20s ease-in-out forwards;
+  color: #ef8fa3;
+  width: 12px;
+  height: 4px;
+  transform: rotateZ(298deg) rotateX(47deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(97).ryu {
+    animation: rotate97 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate97 {
+  100% {
+    transform: rotateY(178deg) rotateZ(202deg) rotateX(219deg) translateZ(500px); } }
+@keyframes rotate_97 {
+  100% {
+    transform: rotateY(-288deg) rotateZ(5deg) rotateX(634deg) translateZ(400px) scale(1); } }
+.particle:nth-child(98) {
+  animation: rotate98 20s 0s ease-in-out forwards, rotate_98 20s 20s ease-in-out forwards;
+  color: #e6ef8f;
+  width: 3px;
+  height: 16px;
+  transform: rotateZ(110deg) rotateX(241deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(98).ryu {
+    animation: rotate98 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate98 {
+  100% {
+    transform: rotateY(137deg) rotateZ(156deg) rotateX(310deg) translateZ(500px); } }
+@keyframes rotate_98 {
+  100% {
+    transform: rotateY(-765deg) rotateZ(101deg) rotateX(394deg) translateZ(400px) scale(1); } }
+.particle:nth-child(99) {
+  animation: rotate99 20s 0s ease-in-out forwards, rotate_99 20s 20s ease-in-out forwards;
+  color: #ef8fce;
+  width: 35px;
+  height: 70px;
+  transform: rotateZ(143deg) rotateX(114deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(99).ryu {
+    animation: rotate99 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate99 {
+  100% {
+    transform: rotateY(261deg) rotateZ(181deg) rotateX(101deg) translateZ(500px); } }
+@keyframes rotate_99 {
+  100% {
+    transform: rotateY(-741deg) rotateZ(344deg) rotateX(668deg) translateZ(400px) scale(1); } }
+.particle:nth-child(100) {
+  animation: rotate100 20s 0s ease-in-out forwards, rotate_100 20s 20s ease-in-out forwards;
+  color: #deef8f;
+  width: 18px;
+  height: 84px;
+  transform: rotateZ(218deg) rotateX(225deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(100).ryu {
+    animation: rotate100 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate100 {
+  100% {
+    transform: rotateY(45deg) rotateZ(115deg) rotateX(72deg) translateZ(500px); } }
+@keyframes rotate_100 {
+  100% {
+    transform: rotateY(-801deg) rotateZ(126deg) rotateX(460deg) translateZ(400px) scale(1); } }
+.particle:nth-child(101) {
+  animation: rotate101 20s 0s ease-in-out forwards, rotate_101 20s 20s ease-in-out forwards;
+  color: #ef8fdc;
+  width: 88px;
+  height: 30px;
+  transform: rotateZ(34deg) rotateX(203deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(101).ryu {
+    animation: rotate101 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate101 {
+  100% {
+    transform: rotateY(263deg) rotateZ(228deg) rotateX(38deg) translateZ(500px); } }
+@keyframes rotate_101 {
+  100% {
+    transform: rotateY(-729deg) rotateZ(51deg) rotateX(422deg) translateZ(400px) scale(1); } }
+.particle:nth-child(102) {
+  animation: rotate102 20s 0s ease-in-out forwards, rotate_102 20s 20s ease-in-out forwards;
+  color: #af8fef;
+  width: 98px;
+  height: 72px;
+  transform: rotateZ(65deg) rotateX(215deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(102).ryu {
+    animation: rotate102 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate102 {
+  100% {
+    transform: rotateY(97deg) rotateZ(273deg) rotateX(182deg) translateZ(500px); } }
+@keyframes rotate_102 {
+  100% {
+    transform: rotateY(-360deg) rotateZ(116deg) rotateX(610deg) translateZ(400px) scale(1); } }
+.particle:nth-child(103) {
+  animation: rotate103 20s 0s ease-in-out forwards, rotate_103 20s 20s ease-in-out forwards;
+  color: #b78fef;
+  width: 49px;
+  height: 14px;
+  transform: rotateZ(73deg) rotateX(159deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(103).ryu {
+    animation: rotate103 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate103 {
+  100% {
+    transform: rotateY(220deg) rotateZ(146deg) rotateX(28deg) translateZ(500px); } }
+@keyframes rotate_103 {
+  100% {
+    transform: rotateY(-726deg) rotateZ(139deg) rotateX(300deg) translateZ(400px) scale(1); } }
+.particle:nth-child(104) {
+  animation: rotate104 20s 0s ease-in-out forwards, rotate_104 20s 20s ease-in-out forwards;
+  color: #8fe7ef;
+  width: 60px;
+  height: 5px;
+  transform: rotateZ(23deg) rotateX(347deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(104).ryu {
+    animation: rotate104 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate104 {
+  100% {
+    transform: rotateY(63deg) rotateZ(324deg) rotateX(171deg) translateZ(500px); } }
+@keyframes rotate_104 {
+  100% {
+    transform: rotateY(-1080deg) rotateZ(5deg) rotateX(410deg) translateZ(400px) scale(1); } }
+.particle:nth-child(105) {
+  animation: rotate105 20s 0s ease-in-out forwards, rotate_105 20s 20s ease-in-out forwards;
+  color: #8fefa4;
+  width: 84px;
+  height: 12px;
+  transform: rotateZ(39deg) rotateX(127deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(105).ryu {
+    animation: rotate105 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate105 {
+  100% {
+    transform: rotateY(312deg) rotateZ(39deg) rotateX(101deg) translateZ(500px); } }
+@keyframes rotate_105 {
+  100% {
+    transform: rotateY(-297deg) rotateZ(92deg) rotateX(6deg) translateZ(400px) scale(1); } }
+.particle:nth-child(106) {
+  animation: rotate106 20s 0s ease-in-out forwards, rotate_106 20s 20s ease-in-out forwards;
+  color: #8fa1ef;
+  width: 80px;
+  height: 6px;
+  transform: rotateZ(322deg) rotateX(58deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(106).ryu {
+    animation: rotate106 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate106 {
+  100% {
+    transform: rotateY(226deg) rotateZ(208deg) rotateX(187deg) translateZ(500px); } }
+@keyframes rotate_106 {
+  100% {
+    transform: rotateY(-987deg) rotateZ(110deg) rotateX(358deg) translateZ(400px) scale(1); } }
+.particle:nth-child(107) {
+  animation: rotate107 20s 0s ease-in-out forwards, rotate_107 20s 20s ease-in-out forwards;
+  color: #ef8fc9;
+  width: 32px;
+  height: 72px;
+  transform: rotateZ(106deg) rotateX(79deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(107).ryu {
+    animation: rotate107 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate107 {
+  100% {
+    transform: rotateY(236deg) rotateZ(35deg) rotateX(185deg) translateZ(500px); } }
+@keyframes rotate_107 {
+  100% {
+    transform: rotateY(-555deg) rotateZ(127deg) rotateX(430deg) translateZ(400px) scale(1); } }
+.particle:nth-child(108) {
+  animation: rotate108 20s 0s ease-in-out forwards, rotate_108 20s 20s ease-in-out forwards;
+  color: #8fefd4;
+  width: 63px;
+  height: 56px;
+  transform: rotateZ(266deg) rotateX(207deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(108).ryu {
+    animation: rotate108 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate108 {
+  100% {
+    transform: rotateY(340deg) rotateZ(171deg) rotateX(75deg) translateZ(500px); } }
+@keyframes rotate_108 {
+  100% {
+    transform: rotateY(-633deg) rotateZ(57deg) rotateX(84deg) translateZ(400px) scale(1); } }
+.particle:nth-child(109) {
+  animation: rotate109 20s 0s ease-in-out forwards, rotate_109 20s 20s ease-in-out forwards;
+  color: #c48fef;
+  width: 14px;
+  height: 108px;
+  transform: rotateZ(81deg) rotateX(190deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(109).ryu {
+    animation: rotate109 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate109 {
+  100% {
+    transform: rotateY(272deg) rotateZ(34deg) rotateX(285deg) translateZ(500px); } }
+@keyframes rotate_109 {
+  100% {
+    transform: rotateY(-1011deg) rotateZ(155deg) rotateX(566deg) translateZ(400px) scale(1); } }
+.particle:nth-child(110) {
+  animation: rotate110 20s 0s ease-in-out forwards, rotate_110 20s 20s ease-in-out forwards;
+  color: #efbf8f;
+  width: 80px;
+  height: 70px;
+  transform: rotateZ(125deg) rotateX(85deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(110).ryu {
+    animation: rotate110 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate110 {
+  100% {
+    transform: rotateY(269deg) rotateZ(284deg) rotateX(162deg) translateZ(500px); } }
+@keyframes rotate_110 {
+  100% {
+    transform: rotateY(-429deg) rotateZ(50deg) rotateX(512deg) translateZ(400px) scale(1); } }
+.particle:nth-child(111) {
+  animation: rotate111 20s 0s ease-in-out forwards, rotate_111 20s 20s ease-in-out forwards;
+  color: #acef8f;
+  width: 130px;
+  height: 24px;
+  transform: rotateZ(9deg) rotateX(246deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(111).ryu {
+    animation: rotate111 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate111 {
+  100% {
+    transform: rotateY(191deg) rotateZ(162deg) rotateX(159deg) translateZ(500px); } }
+@keyframes rotate_111 {
+  100% {
+    transform: rotateY(-366deg) rotateZ(304deg) rotateX(646deg) translateZ(400px) scale(1); } }
+.particle:nth-child(112) {
+  animation: rotate112 20s 0s ease-in-out forwards, rotate_112 20s 20s ease-in-out forwards;
+  color: #ef8fbc;
+  width: 10px;
+  height: 54px;
+  transform: rotateZ(122deg) rotateX(210deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(112).ryu {
+    animation: rotate112 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate112 {
+  100% {
+    transform: rotateY(34deg) rotateZ(138deg) rotateX(38deg) translateZ(500px); } }
+@keyframes rotate_112 {
+  100% {
+    transform: rotateY(-654deg) rotateZ(303deg) rotateX(46deg) translateZ(400px) scale(1); } }
+.particle:nth-child(113) {
+  animation: rotate113 20s 0s ease-in-out forwards, rotate_113 20s 20s ease-in-out forwards;
+  color: #8fef91;
+  width: 18px;
+  height: 10px;
+  transform: rotateZ(315deg) rotateX(341deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(113).ryu {
+    animation: rotate113 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate113 {
+  100% {
+    transform: rotateY(173deg) rotateZ(315deg) rotateX(237deg) translateZ(500px); } }
+@keyframes rotate_113 {
+  100% {
+    transform: rotateY(-825deg) rotateZ(53deg) rotateX(182deg) translateZ(400px) scale(1); } }
+.particle:nth-child(114) {
+  animation: rotate114 20s 0s ease-in-out forwards, rotate_114 20s 20s ease-in-out forwards;
+  color: #bf8fef;
+  width: 30px;
+  height: 16px;
+  transform: rotateZ(142deg) rotateX(179deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(114).ryu {
+    animation: rotate114 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate114 {
+  100% {
+    transform: rotateY(256deg) rotateZ(323deg) rotateX(159deg) translateZ(500px); } }
+@keyframes rotate_114 {
+  100% {
+    transform: rotateY(-873deg) rotateZ(196deg) rotateX(598deg) translateZ(400px) scale(1); } }
+.particle:nth-child(115) {
+  animation: rotate115 20s 0s ease-in-out forwards, rotate_115 20s 20s ease-in-out forwards;
+  color: #efed8f;
+  width: 117px;
+  height: 28px;
+  transform: rotateZ(235deg) rotateX(110deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(115).ryu {
+    animation: rotate115 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate115 {
+  100% {
+    transform: rotateY(61deg) rotateZ(191deg) rotateX(197deg) translateZ(500px); } }
+@keyframes rotate_115 {
+  100% {
+    transform: rotateY(-462deg) rotateZ(340deg) rotateX(536deg) translateZ(400px) scale(1); } }
+.particle:nth-child(116) {
+  animation: rotate116 20s 0s ease-in-out forwards, rotate_116 20s 20s ease-in-out forwards;
+  color: #d9ef8f;
+  width: 27px;
+  height: 18px;
+  transform: rotateZ(230deg) rotateX(252deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(116).ryu {
+    animation: rotate116 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate116 {
+  100% {
+    transform: rotateY(255deg) rotateZ(203deg) rotateX(346deg) translateZ(500px); } }
+@keyframes rotate_116 {
+  100% {
+    transform: rotateY(-513deg) rotateZ(148deg) rotateX(538deg) translateZ(400px) scale(1); } }
+.particle:nth-child(117) {
+  animation: rotate117 20s 0s ease-in-out forwards, rotate_117 20s 20s ease-in-out forwards;
+  color: #99ef8f;
+  width: 9px;
+  height: 8px;
+  transform: rotateZ(290deg) rotateX(113deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(117).ryu {
+    animation: rotate117 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate117 {
+  100% {
+    transform: rotateY(193deg) rotateZ(69deg) rotateX(175deg) translateZ(500px); } }
+@keyframes rotate_117 {
+  100% {
+    transform: rotateY(-228deg) rotateZ(348deg) rotateX(72deg) translateZ(400px) scale(1); } }
+.particle:nth-child(118) {
+  animation: rotate118 20s 0s ease-in-out forwards, rotate_118 20s 20s ease-in-out forwards;
+  color: #b18fef;
+  width: 9px;
+  height: 12px;
+  transform: rotateZ(193deg) rotateX(42deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(118).ryu {
+    animation: rotate118 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate118 {
+  100% {
+    transform: rotateY(74deg) rotateZ(10deg) rotateX(101deg) translateZ(500px); } }
+@keyframes rotate_118 {
+  100% {
+    transform: rotateY(-999deg) rotateZ(231deg) rotateX(216deg) translateZ(400px) scale(1); } }
+.particle:nth-child(119) {
+  animation: rotate119 20s 0s ease-in-out forwards, rotate_119 20s 20s ease-in-out forwards;
+  color: #c48fef;
+  width: 50px;
+  height: 72px;
+  transform: rotateZ(85deg) rotateX(54deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(119).ryu {
+    animation: rotate119 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate119 {
+  100% {
+    transform: rotateY(256deg) rotateZ(125deg) rotateX(307deg) translateZ(500px); } }
+@keyframes rotate_119 {
+  100% {
+    transform: rotateY(-576deg) rotateZ(94deg) rotateX(646deg) translateZ(400px) scale(1); } }
+.particle:nth-child(120) {
+  animation: rotate120 20s 0s ease-in-out forwards, rotate_120 20s 20s ease-in-out forwards;
+  color: #8fd2ef;
+  width: 42px;
+  height: 104px;
+  transform: rotateZ(36deg) rotateX(308deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(120).ryu {
+    animation: rotate120 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate120 {
+  100% {
+    transform: rotateY(311deg) rotateZ(157deg) rotateX(130deg) translateZ(500px); } }
+@keyframes rotate_120 {
+  100% {
+    transform: rotateY(-645deg) rotateZ(92deg) rotateX(608deg) translateZ(400px) scale(1); } }
+.particle:nth-child(121) {
+  animation: rotate121 20s 0s ease-in-out forwards, rotate_121 20s 20s ease-in-out forwards;
+  color: #8fef9e;
+  width: 72px;
+  height: 12px;
+  transform: rotateZ(225deg) rotateX(258deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(121).ryu {
+    animation: rotate121 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate121 {
+  100% {
+    transform: rotateY(266deg) rotateZ(16deg) rotateX(304deg) translateZ(500px); } }
+@keyframes rotate_121 {
+  100% {
+    transform: rotateY(-564deg) rotateZ(46deg) rotateX(186deg) translateZ(400px) scale(1); } }
+.particle:nth-child(122) {
+  animation: rotate122 20s 0s ease-in-out forwards, rotate_122 20s 20s ease-in-out forwards;
+  color: #8fefa3;
+  width: 70px;
+  height: 99px;
+  transform: rotateZ(254deg) rotateX(304deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(122).ryu {
+    animation: rotate122 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate122 {
+  100% {
+    transform: rotateY(238deg) rotateZ(352deg) rotateX(271deg) translateZ(500px); } }
+@keyframes rotate_122 {
+  100% {
+    transform: rotateY(-468deg) rotateZ(45deg) rotateX(12deg) translateZ(400px) scale(1); } }
+.particle:nth-child(123) {
+  animation: rotate123 20s 0s ease-in-out forwards, rotate_123 20s 20s ease-in-out forwards;
+  color: #8fb6ef;
+  width: 2px;
+  height: 40px;
+  transform: rotateZ(351deg) rotateX(136deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(123).ryu {
+    animation: rotate123 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate123 {
+  100% {
+    transform: rotateY(161deg) rotateZ(15deg) rotateX(5deg) translateZ(500px); } }
+@keyframes rotate_123 {
+  100% {
+    transform: rotateY(-621deg) rotateZ(311deg) rotateX(480deg) translateZ(400px) scale(1); } }
+.particle:nth-child(124) {
+  animation: rotate124 20s 0s ease-in-out forwards, rotate_124 20s 20s ease-in-out forwards;
+  color: #efd48f;
+  width: 77px;
+  height: 84px;
+  transform: rotateZ(110deg) rotateX(40deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(124).ryu {
+    animation: rotate124 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate124 {
+  100% {
+    transform: rotateY(167deg) rotateZ(211deg) rotateX(187deg) translateZ(500px); } }
+@keyframes rotate_124 {
+  100% {
+    transform: rotateY(-282deg) rotateZ(37deg) rotateX(120deg) translateZ(400px) scale(1); } }
+.particle:nth-child(125) {
+  animation: rotate125 20s 0s ease-in-out forwards, rotate_125 20s 20s ease-in-out forwards;
+  color: #ef8fdf;
+  width: 2px;
+  height: 11px;
+  transform: rotateZ(218deg) rotateX(309deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(125).ryu {
+    animation: rotate125 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate125 {
+  100% {
+    transform: rotateY(216deg) rotateZ(197deg) rotateX(77deg) translateZ(500px); } }
+@keyframes rotate_125 {
+  100% {
+    transform: rotateY(-633deg) rotateZ(62deg) rotateX(356deg) translateZ(400px) scale(1); } }
+.particle:nth-child(126) {
+  animation: rotate126 20s 0s ease-in-out forwards, rotate_126 20s 20s ease-in-out forwards;
+  color: #8fefe7;
+  width: 64px;
+  height: 3px;
+  transform: rotateZ(234deg) rotateX(346deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(126).ryu {
+    animation: rotate126 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate126 {
+  100% {
+    transform: rotateY(251deg) rotateZ(95deg) rotateX(339deg) translateZ(500px); } }
+@keyframes rotate_126 {
+  100% {
+    transform: rotateY(-933deg) rotateZ(314deg) rotateX(418deg) translateZ(400px) scale(1); } }
+.particle:nth-child(127) {
+  animation: rotate127 20s 0s ease-in-out forwards, rotate_127 20s 20s ease-in-out forwards;
+  color: #ef8f9f;
+  width: 8px;
+  height: 14px;
+  transform: rotateZ(221deg) rotateX(215deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(127).ryu {
+    animation: rotate127 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate127 {
+  100% {
+    transform: rotateY(216deg) rotateZ(85deg) rotateX(68deg) translateZ(500px); } }
+@keyframes rotate_127 {
+  100% {
+    transform: rotateY(-291deg) rotateZ(351deg) rotateX(474deg) translateZ(400px) scale(1); } }
+.particle:nth-child(128) {
+  animation: rotate128 20s 0s ease-in-out forwards, rotate_128 20s 20s ease-in-out forwards;
+  color: #ccef8f;
+  width: 75px;
+  height: 30px;
+  transform: rotateZ(308deg) rotateX(162deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(128).ryu {
+    animation: rotate128 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate128 {
+  100% {
+    transform: rotateY(177deg) rotateZ(312deg) rotateX(66deg) translateZ(500px); } }
+@keyframes rotate_128 {
+  100% {
+    transform: rotateY(-1041deg) rotateZ(14deg) rotateX(4deg) translateZ(400px) scale(1); } }
+.particle:nth-child(129) {
+  animation: rotate129 20s 0s ease-in-out forwards, rotate_129 20s 20s ease-in-out forwards;
+  color: #a9ef8f;
+  width: 4px;
+  height: 50px;
+  transform: rotateZ(188deg) rotateX(20deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(129).ryu {
+    animation: rotate129 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate129 {
+  100% {
+    transform: rotateY(214deg) rotateZ(209deg) rotateX(207deg) translateZ(500px); } }
+@keyframes rotate_129 {
+  100% {
+    transform: rotateY(-414deg) rotateZ(153deg) rotateX(290deg) translateZ(400px) scale(1); } }
+.particle:nth-child(130) {
+  animation: rotate130 20s 0s ease-in-out forwards, rotate_130 20s 20s ease-in-out forwards;
+  color: #e1ef8f;
+  width: 20px;
+  height: 9px;
+  transform: rotateZ(355deg) rotateX(272deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(130).ryu {
+    animation: rotate130 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate130 {
+  100% {
+    transform: rotateY(111deg) rotateZ(94deg) rotateX(205deg) translateZ(500px); } }
+@keyframes rotate_130 {
+  100% {
+    transform: rotateY(-879deg) rotateZ(104deg) rotateX(388deg) translateZ(400px) scale(1); } }
+.particle:nth-child(131) {
+  animation: rotate131 20s 0s ease-in-out forwards, rotate_131 20s 20s ease-in-out forwards;
+  color: #efc98f;
+  width: 28px;
+  height: 7px;
+  transform: rotateZ(28deg) rotateX(48deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(131).ryu {
+    animation: rotate131 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate131 {
+  100% {
+    transform: rotateY(138deg) rotateZ(325deg) rotateX(185deg) translateZ(500px); } }
+@keyframes rotate_131 {
+  100% {
+    transform: rotateY(-1074deg) rotateZ(214deg) rotateX(360deg) translateZ(400px) scale(1); } }
+.particle:nth-child(132) {
+  animation: rotate132 20s 0s ease-in-out forwards, rotate_132 20s 20s ease-in-out forwards;
+  color: #8fefcc;
+  width: 99px;
+  height: 18px;
+  transform: rotateZ(191deg) rotateX(76deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(132).ryu {
+    animation: rotate132 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate132 {
+  100% {
+    transform: rotateY(221deg) rotateZ(219deg) rotateX(321deg) translateZ(500px); } }
+@keyframes rotate_132 {
+  100% {
+    transform: rotateY(-357deg) rotateZ(192deg) rotateX(48deg) translateZ(400px) scale(1); } }
+.particle:nth-child(133) {
+  animation: rotate133 20s 0s ease-in-out forwards, rotate_133 20s 20s ease-in-out forwards;
+  color: #ccef8f;
+  width: 35px;
+  height: 39px;
+  transform: rotateZ(22deg) rotateX(150deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(133).ryu {
+    animation: rotate133 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate133 {
+  100% {
+    transform: rotateY(69deg) rotateZ(321deg) rotateX(19deg) translateZ(500px); } }
+@keyframes rotate_133 {
+  100% {
+    transform: rotateY(-432deg) rotateZ(282deg) rotateX(556deg) translateZ(400px) scale(1); } }
+.particle:nth-child(134) {
+  animation: rotate134 20s 0s ease-in-out forwards, rotate_134 20s 20s ease-in-out forwards;
+  color: #bfef8f;
+  width: 14px;
+  height: 8px;
+  transform: rotateZ(123deg) rotateX(92deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(134).ryu {
+    animation: rotate134 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate134 {
+  100% {
+    transform: rotateY(156deg) rotateZ(328deg) rotateX(273deg) translateZ(500px); } }
+@keyframes rotate_134 {
+  100% {
+    transform: rotateY(-249deg) rotateZ(145deg) rotateX(482deg) translateZ(400px) scale(1); } }
+.particle:nth-child(135) {
+  animation: rotate135 20s 0s ease-in-out forwards, rotate_135 20s 20s ease-in-out forwards;
+  color: #efcf8f;
+  width: 48px;
+  height: 11px;
+  transform: rotateZ(288deg) rotateX(133deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(135).ryu {
+    animation: rotate135 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate135 {
+  100% {
+    transform: rotateY(269deg) rotateZ(276deg) rotateX(29deg) translateZ(500px); } }
+@keyframes rotate_135 {
+  100% {
+    transform: rotateY(-633deg) rotateZ(217deg) rotateX(654deg) translateZ(400px) scale(1); } }
+.particle:nth-child(136) {
+  animation: rotate136 20s 0s ease-in-out forwards, rotate_136 20s 20s ease-in-out forwards;
+  color: #ef8fba;
+  width: 112px;
+  height: 24px;
+  transform: rotateZ(254deg) rotateX(270deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(136).ryu {
+    animation: rotate136 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate136 {
+  100% {
+    transform: rotateY(252deg) rotateZ(268deg) rotateX(31deg) translateZ(500px); } }
+@keyframes rotate_136 {
+  100% {
+    transform: rotateY(-132deg) rotateZ(233deg) rotateX(248deg) translateZ(400px) scale(1); } }
+.particle:nth-child(137) {
+  animation: rotate137 20s 0s ease-in-out forwards, rotate_137 20s 20s ease-in-out forwards;
+  color: #efe18f;
+  width: 3px;
+  height: 24px;
+  transform: rotateZ(19deg) rotateX(201deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(137).ryu {
+    animation: rotate137 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate137 {
+  100% {
+    transform: rotateY(347deg) rotateZ(113deg) rotateX(48deg) translateZ(500px); } }
+@keyframes rotate_137 {
+  100% {
+    transform: rotateY(-558deg) rotateZ(270deg) rotateX(318deg) translateZ(400px) scale(1); } }
+.particle:nth-child(138) {
+  animation: rotate138 20s 0s ease-in-out forwards, rotate_138 20s 20s ease-in-out forwards;
+  color: #8fc1ef;
+  width: 90px;
+  height: 18px;
+  transform: rotateZ(201deg) rotateX(5deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(138).ryu {
+    animation: rotate138 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate138 {
+  100% {
+    transform: rotateY(185deg) rotateZ(123deg) rotateX(192deg) translateZ(500px); } }
+@keyframes rotate_138 {
+  100% {
+    transform: rotateY(-318deg) rotateZ(7deg) rotateX(554deg) translateZ(400px) scale(1); } }
+.particle:nth-child(139) {
+  animation: rotate139 20s 0s ease-in-out forwards, rotate_139 20s 20s ease-in-out forwards;
+  color: #d28fef;
+  width: 30px;
+  height: 12px;
+  transform: rotateZ(224deg) rotateX(160deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(139).ryu {
+    animation: rotate139 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate139 {
+  100% {
+    transform: rotateY(139deg) rotateZ(25deg) rotateX(337deg) translateZ(500px); } }
+@keyframes rotate_139 {
+  100% {
+    transform: rotateY(-1020deg) rotateZ(349deg) rotateX(718deg) translateZ(400px) scale(1); } }
+.particle:nth-child(140) {
+  animation: rotate140 20s 0s ease-in-out forwards, rotate_140 20s 20s ease-in-out forwards;
+  color: #efac8f;
+  width: 75px;
+  height: 108px;
+  transform: rotateZ(255deg) rotateX(295deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(140).ryu {
+    animation: rotate140 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate140 {
+  100% {
+    transform: rotateY(178deg) rotateZ(167deg) rotateX(293deg) translateZ(500px); } }
+@keyframes rotate_140 {
+  100% {
+    transform: rotateY(-948deg) rotateZ(269deg) rotateX(682deg) translateZ(400px) scale(1); } }
+.particle:nth-child(141) {
+  animation: rotate141 20s 0s ease-in-out forwards, rotate_141 20s 20s ease-in-out forwards;
+  color: #ef978f;
+  width: 1px;
+  height: 30px;
+  transform: rotateZ(330deg) rotateX(293deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(141).ryu {
+    animation: rotate141 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate141 {
+  100% {
+    transform: rotateY(11deg) rotateZ(272deg) rotateX(9deg) translateZ(500px); } }
+@keyframes rotate_141 {
+  100% {
+    transform: rotateY(-726deg) rotateZ(31deg) rotateX(432deg) translateZ(400px) scale(1); } }
+.particle:nth-child(142) {
+  animation: rotate142 20s 0s ease-in-out forwards, rotate_142 20s 20s ease-in-out forwards;
+  color: #8fef97;
+  width: 112px;
+  height: 18px;
+  transform: rotateZ(171deg) rotateX(182deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(142).ryu {
+    animation: rotate142 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate142 {
+  100% {
+    transform: rotateY(124deg) rotateZ(83deg) rotateX(66deg) translateZ(500px); } }
+@keyframes rotate_142 {
+  100% {
+    transform: rotateY(-51deg) rotateZ(229deg) rotateX(400deg) translateZ(400px) scale(1); } }
+.particle:nth-child(143) {
+  animation: rotate143 20s 0s ease-in-out forwards, rotate_143 20s 20s ease-in-out forwards;
+  color: #8fefce;
+  width: 28px;
+  height: 30px;
+  transform: rotateZ(167deg) rotateX(45deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(143).ryu {
+    animation: rotate143 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate143 {
+  100% {
+    transform: rotateY(91deg) rotateZ(6deg) rotateX(15deg) translateZ(500px); } }
+@keyframes rotate_143 {
+  100% {
+    transform: rotateY(-369deg) rotateZ(201deg) rotateX(548deg) translateZ(400px) scale(1); } }
+.particle:nth-child(144) {
+  animation: rotate144 20s 0s ease-in-out forwards, rotate_144 20s 20s ease-in-out forwards;
+  color: #8fa3ef;
+  width: 126px;
+  height: 126px;
+  transform: rotateZ(54deg) rotateX(240deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(144).ryu {
+    animation: rotate144 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate144 {
+  100% {
+    transform: rotateY(39deg) rotateZ(69deg) rotateX(179deg) translateZ(500px); } }
+@keyframes rotate_144 {
+  100% {
+    transform: rotateY(-120deg) rotateZ(329deg) rotateX(416deg) translateZ(400px) scale(1); } }
+.particle:nth-child(145) {
+  animation: rotate145 20s 0s ease-in-out forwards, rotate_145 20s 20s ease-in-out forwards;
+  color: #ef8fc2;
+  width: 130px;
+  height: 12px;
+  transform: rotateZ(308deg) rotateX(71deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(145).ryu {
+    animation: rotate145 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate145 {
+  100% {
+    transform: rotateY(314deg) rotateZ(281deg) rotateX(223deg) translateZ(500px); } }
+@keyframes rotate_145 {
+  100% {
+    transform: rotateY(-354deg) rotateZ(95deg) rotateX(644deg) translateZ(400px) scale(1); } }
+.particle:nth-child(146) {
+  animation: rotate146 20s 0s ease-in-out forwards, rotate_146 20s 20s ease-in-out forwards;
+  color: #ef8fe7;
+  width: 6px;
+  height: 35px;
+  transform: rotateZ(116deg) rotateX(293deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(146).ryu {
+    animation: rotate146 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate146 {
+  100% {
+    transform: rotateY(223deg) rotateZ(290deg) rotateX(185deg) translateZ(500px); } }
+@keyframes rotate_146 {
+  100% {
+    transform: rotateY(-51deg) rotateZ(174deg) rotateX(298deg) translateZ(400px) scale(1); } }
+.particle:nth-child(147) {
+  animation: rotate147 20s 0s ease-in-out forwards, rotate_147 20s 20s ease-in-out forwards;
+  color: #efaf8f;
+  width: 54px;
+  height: 126px;
+  transform: rotateZ(193deg) rotateX(125deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(147).ryu {
+    animation: rotate147 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate147 {
+  100% {
+    transform: rotateY(355deg) rotateZ(228deg) rotateX(251deg) translateZ(500px); } }
+@keyframes rotate_147 {
+  100% {
+    transform: rotateY(-420deg) rotateZ(151deg) rotateX(654deg) translateZ(400px) scale(1); } }
+.particle:nth-child(148) {
+  animation: rotate148 20s 0s ease-in-out forwards, rotate_148 20s 20s ease-in-out forwards;
+  color: #c6ef8f;
+  width: 24px;
+  height: 27px;
+  transform: rotateZ(272deg) rotateX(136deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(148).ryu {
+    animation: rotate148 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate148 {
+  100% {
+    transform: rotateY(106deg) rotateZ(6deg) rotateX(118deg) translateZ(500px); } }
+@keyframes rotate_148 {
+  100% {
+    transform: rotateY(-594deg) rotateZ(60deg) rotateX(172deg) translateZ(400px) scale(1); } }
+.particle:nth-child(149) {
+  animation: rotate149 20s 0s ease-in-out forwards, rotate_149 20s 20s ease-in-out forwards;
+  color: #a3ef8f;
+  width: 60px;
+  height: 84px;
+  transform: rotateZ(120deg) rotateX(207deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(149).ryu {
+    animation: rotate149 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate149 {
+  100% {
+    transform: rotateY(192deg) rotateZ(327deg) rotateX(177deg) translateZ(500px); } }
+@keyframes rotate_149 {
+  100% {
+    transform: rotateY(-195deg) rotateZ(154deg) rotateX(288deg) translateZ(400px) scale(1); } }
+.particle:nth-child(150) {
+  animation: rotate150 20s 0s ease-in-out forwards, rotate_150 20s 20s ease-in-out forwards;
+  color: #efe18f;
+  width: 39px;
+  height: 18px;
+  transform: rotateZ(127deg) rotateX(286deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(150).ryu {
+    animation: rotate150 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate150 {
+  100% {
+    transform: rotateY(285deg) rotateZ(202deg) rotateX(353deg) translateZ(500px); } }
+@keyframes rotate_150 {
+  100% {
+    transform: rotateY(-1005deg) rotateZ(132deg) rotateX(346deg) translateZ(400px) scale(1); } }
+.particle:nth-child(151) {
+  animation: rotate151 20s 0s ease-in-out forwards, rotate_151 20s 20s ease-in-out forwards;
+  color: #ef8fba;
+  width: 140px;
+  height: 6px;
+  transform: rotateZ(87deg) rotateX(107deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(151).ryu {
+    animation: rotate151 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate151 {
+  100% {
+    transform: rotateY(210deg) rotateZ(158deg) rotateX(88deg) translateZ(500px); } }
+@keyframes rotate_151 {
+  100% {
+    transform: rotateY(-795deg) rotateZ(233deg) rotateX(168deg) translateZ(400px) scale(1); } }
+.particle:nth-child(152) {
+  animation: rotate152 20s 0s ease-in-out forwards, rotate_152 20s 20s ease-in-out forwards;
+  color: #8fb6ef;
+  width: 32px;
+  height: 30px;
+  transform: rotateZ(294deg) rotateX(182deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(152).ryu {
+    animation: rotate152 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate152 {
+  100% {
+    transform: rotateY(86deg) rotateZ(346deg) rotateX(45deg) translateZ(500px); } }
+@keyframes rotate_152 {
+  100% {
+    transform: rotateY(-1023deg) rotateZ(317deg) rotateX(556deg) translateZ(400px) scale(1); } }
+.particle:nth-child(153) {
+  animation: rotate153 20s 0s ease-in-out forwards, rotate_153 20s 20s ease-in-out forwards;
+  color: #efc28f;
+  width: 12px;
+  height: 130px;
+  transform: rotateZ(193deg) rotateX(179deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(153).ryu {
+    animation: rotate153 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate153 {
+  100% {
+    transform: rotateY(196deg) rotateZ(303deg) rotateX(352deg) translateZ(500px); } }
+@keyframes rotate_153 {
+  100% {
+    transform: rotateY(-384deg) rotateZ(248deg) rotateX(290deg) translateZ(400px) scale(1); } }
+.particle:nth-child(154) {
+  animation: rotate154 20s 0s ease-in-out forwards, rotate_154 20s 20s ease-in-out forwards;
+  color: #ef8fc9;
+  width: 32px;
+  height: 40px;
+  transform: rotateZ(146deg) rotateX(120deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(154).ryu {
+    animation: rotate154 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate154 {
+  100% {
+    transform: rotateY(300deg) rotateZ(12deg) rotateX(50deg) translateZ(500px); } }
+@keyframes rotate_154 {
+  100% {
+    transform: rotateY(-411deg) rotateZ(12deg) rotateX(54deg) translateZ(400px) scale(1); } }
+.particle:nth-child(155) {
+  animation: rotate155 20s 0s ease-in-out forwards, rotate_155 20s 20s ease-in-out forwards;
+  color: #8fc2ef;
+  width: 14px;
+  height: 98px;
+  transform: rotateZ(282deg) rotateX(358deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(155).ryu {
+    animation: rotate155 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate155 {
+  100% {
+    transform: rotateY(185deg) rotateZ(125deg) rotateX(88deg) translateZ(500px); } }
+@keyframes rotate_155 {
+  100% {
+    transform: rotateY(-1014deg) rotateZ(119deg) rotateX(244deg) translateZ(400px) scale(1); } }
+.particle:nth-child(156) {
+  animation: rotate156 20s 0s ease-in-out forwards, rotate_156 20s 20s ease-in-out forwards;
+  color: #bcef8f;
+  width: 18px;
+  height: 30px;
+  transform: rotateZ(358deg) rotateX(213deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(156).ryu {
+    animation: rotate156 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate156 {
+  100% {
+    transform: rotateY(254deg) rotateZ(227deg) rotateX(7deg) translateZ(500px); } }
+@keyframes rotate_156 {
+  100% {
+    transform: rotateY(-939deg) rotateZ(122deg) rotateX(96deg) translateZ(400px) scale(1); } }
+.particle:nth-child(157) {
+  animation: rotate157 20s 0s ease-in-out forwards, rotate_157 20s 20s ease-in-out forwards;
+  color: #d6ef8f;
+  width: 90px;
+  height: 56px;
+  transform: rotateZ(207deg) rotateX(74deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(157).ryu {
+    animation: rotate157 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate157 {
+  100% {
+    transform: rotateY(213deg) rotateZ(182deg) rotateX(76deg) translateZ(500px); } }
+@keyframes rotate_157 {
+  100% {
+    transform: rotateY(-411deg) rotateZ(205deg) rotateX(538deg) translateZ(400px) scale(1); } }
+.particle:nth-child(158) {
+  animation: rotate158 20s 0s ease-in-out forwards, rotate_158 20s 20s ease-in-out forwards;
+  color: #8fc1ef;
+  width: 24px;
+  height: 3px;
+  transform: rotateZ(187deg) rotateX(190deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(158).ryu {
+    animation: rotate158 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate158 {
+  100% {
+    transform: rotateY(107deg) rotateZ(327deg) rotateX(279deg) translateZ(500px); } }
+@keyframes rotate_158 {
+  100% {
+    transform: rotateY(-168deg) rotateZ(112deg) rotateX(78deg) translateZ(400px) scale(1); } }
+.particle:nth-child(159) {
+  animation: rotate159 20s 0s ease-in-out forwards, rotate_159 20s 20s ease-in-out forwards;
+  color: #8f9fef;
+  width: 21px;
+  height: 28px;
+  transform: rotateZ(336deg) rotateX(200deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(159).ryu {
+    animation: rotate159 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate159 {
+  100% {
+    transform: rotateY(167deg) rotateZ(244deg) rotateX(337deg) translateZ(500px); } }
+@keyframes rotate_159 {
+  100% {
+    transform: rotateY(-867deg) rotateZ(9deg) rotateX(318deg) translateZ(400px) scale(1); } }
+.particle:nth-child(160) {
+  animation: rotate160 20s 0s ease-in-out forwards, rotate_160 20s 20s ease-in-out forwards;
+  color: #efb48f;
+  width: 9px;
+  height: 77px;
+  transform: rotateZ(184deg) rotateX(191deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(160).ryu {
+    animation: rotate160 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate160 {
+  100% {
+    transform: rotateY(302deg) rotateZ(246deg) rotateX(233deg) translateZ(500px); } }
+@keyframes rotate_160 {
+  100% {
+    transform: rotateY(-771deg) rotateZ(234deg) rotateX(464deg) translateZ(400px) scale(1); } }
+.particle:nth-child(161) {
+  animation: rotate161 20s 0s ease-in-out forwards, rotate_161 20s 20s ease-in-out forwards;
+  color: #8fbaef;
+  width: 72px;
+  height: 84px;
+  transform: rotateZ(349deg) rotateX(348deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(161).ryu {
+    animation: rotate161 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate161 {
+  100% {
+    transform: rotateY(331deg) rotateZ(125deg) rotateX(100deg) translateZ(500px); } }
+@keyframes rotate_161 {
+  100% {
+    transform: rotateY(-831deg) rotateZ(92deg) rotateX(134deg) translateZ(400px) scale(1); } }
+.particle:nth-child(162) {
+  animation: rotate162 20s 0s ease-in-out forwards, rotate_162 20s 20s ease-in-out forwards;
+  color: #948fef;
+  width: 21px;
+  height: 64px;
+  transform: rotateZ(286deg) rotateX(174deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(162).ryu {
+    animation: rotate162 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate162 {
+  100% {
+    transform: rotateY(185deg) rotateZ(172deg) rotateX(51deg) translateZ(500px); } }
+@keyframes rotate_162 {
+  100% {
+    transform: rotateY(-363deg) rotateZ(291deg) rotateX(148deg) translateZ(400px) scale(1); } }
+.particle:nth-child(163) {
+  animation: rotate163 20s 0s ease-in-out forwards, rotate_163 20s 20s ease-in-out forwards;
+  color: #8fd4ef;
+  width: 10px;
+  height: 84px;
+  transform: rotateZ(34deg) rotateX(72deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(163).ryu {
+    animation: rotate163 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate163 {
+  100% {
+    transform: rotateY(285deg) rotateZ(327deg) rotateX(354deg) translateZ(500px); } }
+@keyframes rotate_163 {
+  100% {
+    transform: rotateY(-837deg) rotateZ(286deg) rotateX(716deg) translateZ(400px) scale(1); } }
+.particle:nth-child(164) {
+  animation: rotate164 20s 0s ease-in-out forwards, rotate_164 20s 20s ease-in-out forwards;
+  color: #a68fef;
+  width: 14px;
+  height: 81px;
+  transform: rotateZ(340deg) rotateX(16deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(164).ryu {
+    animation: rotate164 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate164 {
+  100% {
+    transform: rotateY(241deg) rotateZ(348deg) rotateX(242deg) translateZ(500px); } }
+@keyframes rotate_164 {
+  100% {
+    transform: rotateY(-1032deg) rotateZ(29deg) rotateX(440deg) translateZ(400px) scale(1); } }
+.particle:nth-child(165) {
+  animation: rotate165 20s 0s ease-in-out forwards, rotate_165 20s 20s ease-in-out forwards;
+  color: #8fefbe;
+  width: 45px;
+  height: 20px;
+  transform: rotateZ(148deg) rotateX(346deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(165).ryu {
+    animation: rotate165 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate165 {
+  100% {
+    transform: rotateY(9deg) rotateZ(4deg) rotateX(131deg) translateZ(500px); } }
+@keyframes rotate_165 {
+  100% {
+    transform: rotateY(-816deg) rotateZ(81deg) rotateX(266deg) translateZ(400px) scale(1); } }
+.particle:nth-child(166) {
+  animation: rotate166 20s 0s ease-in-out forwards, rotate_166 20s 20s ease-in-out forwards;
+  color: #8fefb9;
+  width: 108px;
+  height: 126px;
+  transform: rotateZ(202deg) rotateX(190deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(166).ryu {
+    animation: rotate166 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate166 {
+  100% {
+    transform: rotateY(297deg) rotateZ(127deg) rotateX(268deg) translateZ(500px); } }
+@keyframes rotate_166 {
+  100% {
+    transform: rotateY(-228deg) rotateZ(56deg) rotateX(386deg) translateZ(400px) scale(1); } }
+.particle:nth-child(167) {
+  animation: rotate167 20s 0s ease-in-out forwards, rotate_167 20s 20s ease-in-out forwards;
+  color: #ef8fdc;
+  width: 80px;
+  height: 2px;
+  transform: rotateZ(90deg) rotateX(298deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(167).ryu {
+    animation: rotate167 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate167 {
+  100% {
+    transform: rotateY(226deg) rotateZ(351deg) rotateX(294deg) translateZ(500px); } }
+@keyframes rotate_167 {
+  100% {
+    transform: rotateY(-486deg) rotateZ(101deg) rotateX(188deg) translateZ(400px) scale(1); } }
+.particle:nth-child(168) {
+  animation: rotate168 20s 0s ease-in-out forwards, rotate_168 20s 20s ease-in-out forwards;
+  color: #efed8f;
+  width: 112px;
+  height: 78px;
+  transform: rotateZ(356deg) rotateX(235deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(168).ryu {
+    animation: rotate168 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate168 {
+  100% {
+    transform: rotateY(131deg) rotateZ(79deg) rotateX(129deg) translateZ(500px); } }
+@keyframes rotate_168 {
+  100% {
+    transform: rotateY(-111deg) rotateZ(111deg) rotateX(28deg) translateZ(400px) scale(1); } }
+.particle:nth-child(169) {
+  animation: rotate169 20s 0s ease-in-out forwards, rotate_169 20s 20s ease-in-out forwards;
+  color: #ef8fe2;
+  width: 20px;
+  height: 98px;
+  transform: rotateZ(238deg) rotateX(342deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(169).ryu {
+    animation: rotate169 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate169 {
+  100% {
+    transform: rotateY(273deg) rotateZ(181deg) rotateX(23deg) translateZ(500px); } }
+@keyframes rotate_169 {
+  100% {
+    transform: rotateY(-1014deg) rotateZ(182deg) rotateX(432deg) translateZ(400px) scale(1); } }
+.particle:nth-child(170) {
+  animation: rotate170 20s 0s ease-in-out forwards, rotate_170 20s 20s ease-in-out forwards;
+  color: #d98fef;
+  width: 15px;
+  height: 48px;
+  transform: rotateZ(24deg) rotateX(80deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(170).ryu {
+    animation: rotate170 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate170 {
+  100% {
+    transform: rotateY(307deg) rotateZ(72deg) rotateX(354deg) translateZ(500px); } }
+@keyframes rotate_170 {
+  100% {
+    transform: rotateY(-708deg) rotateZ(141deg) rotateX(342deg) translateZ(400px) scale(1); } }
+.particle:nth-child(171) {
+  animation: rotate171 20s 0s ease-in-out forwards, rotate_171 20s 20s ease-in-out forwards;
+  color: #8fc4ef;
+  width: 8px;
+  height: 30px;
+  transform: rotateZ(99deg) rotateX(177deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(171).ryu {
+    animation: rotate171 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate171 {
+  100% {
+    transform: rotateY(335deg) rotateZ(286deg) rotateX(335deg) translateZ(500px); } }
+@keyframes rotate_171 {
+  100% {
+    transform: rotateY(-267deg) rotateZ(93deg) rotateX(504deg) translateZ(400px) scale(1); } }
+.particle:nth-child(172) {
+  animation: rotate172 20s 0s ease-in-out forwards, rotate_172 20s 20s ease-in-out forwards;
+  color: #8fa6ef;
+  width: 49px;
+  height: 135px;
+  transform: rotateZ(154deg) rotateX(356deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(172).ryu {
+    animation: rotate172 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate172 {
+  100% {
+    transform: rotateY(90deg) rotateZ(81deg) rotateX(346deg) translateZ(500px); } }
+@keyframes rotate_172 {
+  100% {
+    transform: rotateY(-786deg) rotateZ(327deg) rotateX(248deg) translateZ(400px) scale(1); } }
+.particle:nth-child(173) {
+  animation: rotate173 20s 0s ease-in-out forwards, rotate_173 20s 20s ease-in-out forwards;
+  color: #97ef8f;
+  width: 8px;
+  height: 30px;
+  transform: rotateZ(260deg) rotateX(283deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(173).ryu {
+    animation: rotate173 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate173 {
+  100% {
+    transform: rotateY(140deg) rotateZ(135deg) rotateX(132deg) translateZ(500px); } }
+@keyframes rotate_173 {
+  100% {
+    transform: rotateY(-996deg) rotateZ(168deg) rotateX(156deg) translateZ(400px) scale(1); } }
+.particle:nth-child(174) {
+  animation: rotate174 20s 0s ease-in-out forwards, rotate_174 20s 20s ease-in-out forwards;
+  color: #8fc4ef;
+  width: 42px;
+  height: 26px;
+  transform: rotateZ(83deg) rotateX(196deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(174).ryu {
+    animation: rotate174 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate174 {
+  100% {
+    transform: rotateY(290deg) rotateZ(52deg) rotateX(110deg) translateZ(500px); } }
+@keyframes rotate_174 {
+  100% {
+    transform: rotateY(-366deg) rotateZ(258deg) rotateX(224deg) translateZ(400px) scale(1); } }
+.particle:nth-child(175) {
+  animation: rotate175 20s 0s ease-in-out forwards, rotate_175 20s 20s ease-in-out forwards;
+  color: #998fef;
+  width: 36px;
+  height: 8px;
+  transform: rotateZ(179deg) rotateX(15deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(175).ryu {
+    animation: rotate175 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate175 {
+  100% {
+    transform: rotateY(355deg) rotateZ(165deg) rotateX(289deg) translateZ(500px); } }
+@keyframes rotate_175 {
+  100% {
+    transform: rotateY(-357deg) rotateZ(128deg) rotateX(260deg) translateZ(400px) scale(1); } }
+.particle:nth-child(176) {
+  animation: rotate176 20s 0s ease-in-out forwards, rotate_176 20s 20s ease-in-out forwards;
+  color: #efd78f;
+  width: 12px;
+  height: 44px;
+  transform: rotateZ(49deg) rotateX(293deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(176).ryu {
+    animation: rotate176 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate176 {
+  100% {
+    transform: rotateY(223deg) rotateZ(184deg) rotateX(117deg) translateZ(500px); } }
+@keyframes rotate_176 {
+  100% {
+    transform: rotateY(-1023deg) rotateZ(143deg) rotateX(662deg) translateZ(400px) scale(1); } }
+.particle:nth-child(177) {
+  animation: rotate177 20s 0s ease-in-out forwards, rotate_177 20s 20s ease-in-out forwards;
+  color: #b3ef8f;
+  width: 2px;
+  height: 20px;
+  transform: rotateZ(18deg) rotateX(56deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(177).ryu {
+    animation: rotate177 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate177 {
+  100% {
+    transform: rotateY(329deg) rotateZ(140deg) rotateX(138deg) translateZ(500px); } }
+@keyframes rotate_177 {
+  100% {
+    transform: rotateY(-486deg) rotateZ(322deg) rotateX(640deg) translateZ(400px) scale(1); } }
+.particle:nth-child(178) {
+  animation: rotate178 20s 0s ease-in-out forwards, rotate_178 20s 20s ease-in-out forwards;
+  color: #efb38f;
+  width: 64px;
+  height: 15px;
+  transform: rotateZ(347deg) rotateX(118deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(178).ryu {
+    animation: rotate178 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate178 {
+  100% {
+    transform: rotateY(136deg) rotateZ(202deg) rotateX(59deg) translateZ(500px); } }
+@keyframes rotate_178 {
+  100% {
+    transform: rotateY(-510deg) rotateZ(230deg) rotateX(194deg) translateZ(400px) scale(1); } }
+.particle:nth-child(179) {
+  animation: rotate179 20s 0s ease-in-out forwards, rotate_179 20s 20s ease-in-out forwards;
+  color: #8fefda;
+  width: 60px;
+  height: 70px;
+  transform: rotateZ(130deg) rotateX(164deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(179).ryu {
+    animation: rotate179 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate179 {
+  100% {
+    transform: rotateY(297deg) rotateZ(28deg) rotateX(211deg) translateZ(500px); } }
+@keyframes rotate_179 {
+  100% {
+    transform: rotateY(-822deg) rotateZ(113deg) rotateX(98deg) translateZ(400px) scale(1); } }
+.particle:nth-child(180) {
+  animation: rotate180 20s 0s ease-in-out forwards, rotate_180 20s 20s ease-in-out forwards;
+  color: #efae8f;
+  width: 70px;
+  height: 45px;
+  transform: rotateZ(322deg) rotateX(230deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(180).ryu {
+    animation: rotate180 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate180 {
+  100% {
+    transform: rotateY(117deg) rotateZ(58deg) rotateX(301deg) translateZ(500px); } }
+@keyframes rotate_180 {
+  100% {
+    transform: rotateY(-756deg) rotateZ(246deg) rotateX(266deg) translateZ(400px) scale(1); } }
+.particle:nth-child(181) {
+  animation: rotate181 20s 0s ease-in-out forwards, rotate_181 20s 20s ease-in-out forwards;
+  color: #8fefec;
+  width: 63px;
+  height: 49px;
+  transform: rotateZ(347deg) rotateX(128deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(181).ryu {
+    animation: rotate181 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate181 {
+  100% {
+    transform: rotateY(121deg) rotateZ(31deg) rotateX(237deg) translateZ(500px); } }
+@keyframes rotate_181 {
+  100% {
+    transform: rotateY(-981deg) rotateZ(291deg) rotateX(326deg) translateZ(400px) scale(1); } }
+.particle:nth-child(182) {
+  animation: rotate182 20s 0s ease-in-out forwards, rotate_182 20s 20s ease-in-out forwards;
+  color: #8fe1ef;
+  width: 13px;
+  height: 36px;
+  transform: rotateZ(26deg) rotateX(29deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(182).ryu {
+    animation: rotate182 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate182 {
+  100% {
+    transform: rotateY(173deg) rotateZ(315deg) rotateX(178deg) translateZ(500px); } }
+@keyframes rotate_182 {
+  100% {
+    transform: rotateY(-783deg) rotateZ(205deg) rotateX(146deg) translateZ(400px) scale(1); } }
+.particle:nth-child(183) {
+  animation: rotate183 20s 0s ease-in-out forwards, rotate_183 20s 20s ease-in-out forwards;
+  color: #da8fef;
+  width: 30px;
+  height: 3px;
+  transform: rotateZ(45deg) rotateX(2deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(183).ryu {
+    animation: rotate183 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate183 {
+  100% {
+    transform: rotateY(50deg) rotateZ(244deg) rotateX(177deg) translateZ(500px); } }
+@keyframes rotate_183 {
+  100% {
+    transform: rotateY(-876deg) rotateZ(244deg) rotateX(604deg) translateZ(400px) scale(1); } }
+.particle:nth-child(184) {
+  animation: rotate184 20s 0s ease-in-out forwards, rotate_184 20s 20s ease-in-out forwards;
+  color: #8f9bef;
+  width: 32px;
+  height: 21px;
+  transform: rotateZ(273deg) rotateX(163deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(184).ryu {
+    animation: rotate184 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate184 {
+  100% {
+    transform: rotateY(17deg) rotateZ(331deg) rotateX(192deg) translateZ(500px); } }
+@keyframes rotate_184 {
+  100% {
+    transform: rotateY(-339deg) rotateZ(174deg) rotateX(406deg) translateZ(400px) scale(1); } }
+.particle:nth-child(185) {
+  animation: rotate185 20s 0s ease-in-out forwards, rotate_185 20s 20s ease-in-out forwards;
+  color: #ef8fa4;
+  width: 81px;
+  height: 27px;
+  transform: rotateZ(220deg) rotateX(198deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(185).ryu {
+    animation: rotate185 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate185 {
+  100% {
+    transform: rotateY(8deg) rotateZ(211deg) rotateX(232deg) translateZ(500px); } }
+@keyframes rotate_185 {
+  100% {
+    transform: rotateY(-1011deg) rotateZ(17deg) rotateX(246deg) translateZ(400px) scale(1); } }
+.particle:nth-child(186) {
+  animation: rotate186 20s 0s ease-in-out forwards, rotate_186 20s 20s ease-in-out forwards;
+  color: #8fdaef;
+  width: 21px;
+  height: 80px;
+  transform: rotateZ(174deg) rotateX(349deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(186).ryu {
+    animation: rotate186 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate186 {
+  100% {
+    transform: rotateY(347deg) rotateZ(142deg) rotateX(163deg) translateZ(500px); } }
+@keyframes rotate_186 {
+  100% {
+    transform: rotateY(-663deg) rotateZ(50deg) rotateX(574deg) translateZ(400px) scale(1); } }
+.particle:nth-child(187) {
+  animation: rotate187 20s 0s ease-in-out forwards, rotate_187 20s 20s ease-in-out forwards;
+  color: #d4ef8f;
+  width: 54px;
+  height: 13px;
+  transform: rotateZ(281deg) rotateX(287deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(187).ryu {
+    animation: rotate187 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate187 {
+  100% {
+    transform: rotateY(66deg) rotateZ(224deg) rotateX(167deg) translateZ(500px); } }
+@keyframes rotate_187 {
+  100% {
+    transform: rotateY(-537deg) rotateZ(68deg) rotateX(8deg) translateZ(400px) scale(1); } }
+.particle:nth-child(188) {
+  animation: rotate188 20s 0s ease-in-out forwards, rotate_188 20s 20s ease-in-out forwards;
+  color: #ec8fef;
+  width: 12px;
+  height: 10px;
+  transform: rotateZ(33deg) rotateX(49deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(188).ryu {
+    animation: rotate188 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate188 {
+  100% {
+    transform: rotateY(192deg) rotateZ(143deg) rotateX(204deg) translateZ(500px); } }
+@keyframes rotate_188 {
+  100% {
+    transform: rotateY(-942deg) rotateZ(73deg) rotateX(470deg) translateZ(400px) scale(1); } }
+.particle:nth-child(189) {
+  animation: rotate189 20s 0s ease-in-out forwards, rotate_189 20s 20s ease-in-out forwards;
+  color: #ed8fef;
+  width: 54px;
+  height: 117px;
+  transform: rotateZ(289deg) rotateX(327deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(189).ryu {
+    animation: rotate189 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate189 {
+  100% {
+    transform: rotateY(218deg) rotateZ(202deg) rotateX(151deg) translateZ(500px); } }
+@keyframes rotate_189 {
+  100% {
+    transform: rotateY(-390deg) rotateZ(178deg) rotateX(478deg) translateZ(400px) scale(1); } }
+.particle:nth-child(190) {
+  animation: rotate190 20s 0s ease-in-out forwards, rotate_190 20s 20s ease-in-out forwards;
+  color: #8fb6ef;
+  width: 48px;
+  height: 9px;
+  transform: rotateZ(42deg) rotateX(259deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(190).ryu {
+    animation: rotate190 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate190 {
+  100% {
+    transform: rotateY(146deg) rotateZ(282deg) rotateX(186deg) translateZ(500px); } }
+@keyframes rotate_190 {
+  100% {
+    transform: rotateY(-186deg) rotateZ(182deg) rotateX(18deg) translateZ(400px) scale(1); } }
+.particle:nth-child(191) {
+  animation: rotate191 20s 0s ease-in-out forwards, rotate_191 20s 20s ease-in-out forwards;
+  color: #ef8fa9;
+  width: 36px;
+  height: 48px;
+  transform: rotateZ(80deg) rotateX(351deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(191).ryu {
+    animation: rotate191 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate191 {
+  100% {
+    transform: rotateY(152deg) rotateZ(134deg) rotateX(1deg) translateZ(500px); } }
+@keyframes rotate_191 {
+  100% {
+    transform: rotateY(-486deg) rotateZ(132deg) rotateX(16deg) translateZ(400px) scale(1); } }
+.particle:nth-child(192) {
+  animation: rotate192 20s 0s ease-in-out forwards, rotate_192 20s 20s ease-in-out forwards;
+  color: #ef8fec;
+  width: 99px;
+  height: 32px;
+  transform: rotateZ(208deg) rotateX(8deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(192).ryu {
+    animation: rotate192 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate192 {
+  100% {
+    transform: rotateY(337deg) rotateZ(181deg) rotateX(311deg) translateZ(500px); } }
+@keyframes rotate_192 {
+  100% {
+    transform: rotateY(-246deg) rotateZ(148deg) rotateX(584deg) translateZ(400px) scale(1); } }
+.particle:nth-child(193) {
+  animation: rotate193 20s 0s ease-in-out forwards, rotate_193 20s 20s ease-in-out forwards;
+  color: #efe28f;
+  width: 48px;
+  height: 11px;
+  transform: rotateZ(321deg) rotateX(272deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(193).ryu {
+    animation: rotate193 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate193 {
+  100% {
+    transform: rotateY(186deg) rotateZ(143deg) rotateX(84deg) translateZ(500px); } }
+@keyframes rotate_193 {
+  100% {
+    transform: rotateY(-90deg) rotateZ(302deg) rotateX(436deg) translateZ(400px) scale(1); } }
+.particle:nth-child(194) {
+  animation: rotate194 20s 0s ease-in-out forwards, rotate_194 20s 20s ease-in-out forwards;
+  color: #efcf8f;
+  width: 20px;
+  height: 36px;
+  transform: rotateZ(146deg) rotateX(334deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(194).ryu {
+    animation: rotate194 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate194 {
+  100% {
+    transform: rotateY(125deg) rotateZ(69deg) rotateX(136deg) translateZ(500px); } }
+@keyframes rotate_194 {
+  100% {
+    transform: rotateY(-57deg) rotateZ(92deg) rotateX(402deg) translateZ(400px) scale(1); } }
+.particle:nth-child(195) {
+  animation: rotate195 20s 0s ease-in-out forwards, rotate_195 20s 20s ease-in-out forwards;
+  color: #8fefbe;
+  width: 30px;
+  height: 6px;
+  transform: rotateZ(300deg) rotateX(29deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(195).ryu {
+    animation: rotate195 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate195 {
+  100% {
+    transform: rotateY(338deg) rotateZ(186deg) rotateX(330deg) translateZ(500px); } }
+@keyframes rotate_195 {
+  100% {
+    transform: rotateY(-972deg) rotateZ(233deg) rotateX(710deg) translateZ(400px) scale(1); } }
+.particle:nth-child(196) {
+  animation: rotate196 20s 0s ease-in-out forwards, rotate_196 20s 20s ease-in-out forwards;
+  color: #efec8f;
+  width: 30px;
+  height: 6px;
+  transform: rotateZ(148deg) rotateX(188deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(196).ryu {
+    animation: rotate196 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate196 {
+  100% {
+    transform: rotateY(117deg) rotateZ(3deg) rotateX(241deg) translateZ(500px); } }
+@keyframes rotate_196 {
+  100% {
+    transform: rotateY(-534deg) rotateZ(72deg) rotateX(400deg) translateZ(400px) scale(1); } }
+.particle:nth-child(197) {
+  animation: rotate197 20s 0s ease-in-out forwards, rotate_197 20s 20s ease-in-out forwards;
+  color: #8fefef;
+  width: 39px;
+  height: 12px;
+  transform: rotateZ(67deg) rotateX(131deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(197).ryu {
+    animation: rotate197 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate197 {
+  100% {
+    transform: rotateY(182deg) rotateZ(286deg) rotateX(131deg) translateZ(500px); } }
+@keyframes rotate_197 {
+  100% {
+    transform: rotateY(-426deg) rotateZ(113deg) rotateX(678deg) translateZ(400px) scale(1); } }
+.particle:nth-child(198) {
+  animation: rotate198 20s 0s ease-in-out forwards, rotate_198 20s 20s ease-in-out forwards;
+  color: #8fecef;
+  width: 12px;
+  height: 16px;
+  transform: rotateZ(101deg) rotateX(32deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(198).ryu {
+    animation: rotate198 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate198 {
+  100% {
+    transform: rotateY(83deg) rotateZ(340deg) rotateX(24deg) translateZ(500px); } }
+@keyframes rotate_198 {
+  100% {
+    transform: rotateY(-552deg) rotateZ(57deg) rotateX(506deg) translateZ(400px) scale(1); } }
+.particle:nth-child(199) {
+  animation: rotate199 20s 0s ease-in-out forwards, rotate_199 20s 20s ease-in-out forwards;
+  color: #efc18f;
+  width: 98px;
+  height: 18px;
+  transform: rotateZ(75deg) rotateX(77deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(199).ryu {
+    animation: rotate199 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate199 {
+  100% {
+    transform: rotateY(59deg) rotateZ(318deg) rotateX(12deg) translateZ(500px); } }
+@keyframes rotate_199 {
+  100% {
+    transform: rotateY(-210deg) rotateZ(112deg) rotateX(642deg) translateZ(400px) scale(1); } }
+.particle:nth-child(200) {
+  animation: rotate200 20s 0s ease-in-out forwards, rotate_200 20s 20s ease-in-out forwards;
+  color: #c78fef;
+  width: 150px;
+  height: 15px;
+  transform: rotateZ(297deg) rotateX(220deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(200).ryu {
+    animation: rotate200 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate200 {
+  100% {
+    transform: rotateY(29deg) rotateZ(221deg) rotateX(51deg) translateZ(500px); } }
+@keyframes rotate_200 {
+  100% {
+    transform: rotateY(-576deg) rotateZ(269deg) rotateX(268deg) translateZ(400px) scale(1); } }
+.particle:nth-child(201) {
+  animation: rotate201 20s 0s ease-in-out forwards, rotate_201 20s 20s ease-in-out forwards;
+  color: #8fefcc;
+  width: 63px;
+  height: 11px;
+  transform: rotateZ(195deg) rotateX(222deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(201).ryu {
+    animation: rotate201 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate201 {
+  100% {
+    transform: rotateY(290deg) rotateZ(173deg) rotateX(326deg) translateZ(500px); } }
+@keyframes rotate_201 {
+  100% {
+    transform: rotateY(-360deg) rotateZ(196deg) rotateX(230deg) translateZ(400px) scale(1); } }
+.particle:nth-child(202) {
+  animation: rotate202 20s 0s ease-in-out forwards, rotate_202 20s 20s ease-in-out forwards;
+  color: #ef918f;
+  width: 80px;
+  height: 120px;
+  transform: rotateZ(64deg) rotateX(24deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(202).ryu {
+    animation: rotate202 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate202 {
+  100% {
+    transform: rotateY(297deg) rotateZ(192deg) rotateX(42deg) translateZ(500px); } }
+@keyframes rotate_202 {
+  100% {
+    transform: rotateY(-483deg) rotateZ(246deg) rotateX(538deg) translateZ(400px) scale(1); } }
+.particle:nth-child(203) {
+  animation: rotate203 20s 0s ease-in-out forwards, rotate_203 20s 20s ease-in-out forwards;
+  color: #beef8f;
+  width: 4px;
+  height: 24px;
+  transform: rotateZ(82deg) rotateX(200deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(203).ryu {
+    animation: rotate203 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate203 {
+  100% {
+    transform: rotateY(41deg) rotateZ(196deg) rotateX(328deg) translateZ(500px); } }
+@keyframes rotate_203 {
+  100% {
+    transform: rotateY(-123deg) rotateZ(175deg) rotateX(550deg) translateZ(400px) scale(1); } }
+.particle:nth-child(204) {
+  animation: rotate204 20s 0s ease-in-out forwards, rotate_204 20s 20s ease-in-out forwards;
+  color: #ef8fe2;
+  width: 88px;
+  height: 26px;
+  transform: rotateZ(214deg) rotateX(175deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(204).ryu {
+    animation: rotate204 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate204 {
+  100% {
+    transform: rotateY(220deg) rotateZ(327deg) rotateX(257deg) translateZ(500px); } }
+@keyframes rotate_204 {
+  100% {
+    transform: rotateY(-939deg) rotateZ(238deg) rotateX(590deg) translateZ(400px) scale(1); } }
+.particle:nth-child(205) {
+  animation: rotate205 20s 0s ease-in-out forwards, rotate_205 20s 20s ease-in-out forwards;
+  color: #efc48f;
+  width: 70px;
+  height: 16px;
+  transform: rotateZ(51deg) rotateX(4deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(205).ryu {
+    animation: rotate205 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate205 {
+  100% {
+    transform: rotateY(298deg) rotateZ(293deg) rotateX(67deg) translateZ(500px); } }
+@keyframes rotate_205 {
+  100% {
+    transform: rotateY(-738deg) rotateZ(243deg) rotateX(6deg) translateZ(400px) scale(1); } }
+.particle:nth-child(206) {
+  animation: rotate206 20s 0s ease-in-out forwards, rotate_206 20s 20s ease-in-out forwards;
+  color: #a18fef;
+  width: 70px;
+  height: 33px;
+  transform: rotateZ(5deg) rotateX(97deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(206).ryu {
+    animation: rotate206 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate206 {
+  100% {
+    transform: rotateY(179deg) rotateZ(87deg) rotateX(7deg) translateZ(500px); } }
+@keyframes rotate_206 {
+  100% {
+    transform: rotateY(-642deg) rotateZ(40deg) rotateX(620deg) translateZ(400px) scale(1); } }
+.particle:nth-child(207) {
+  animation: rotate207 20s 0s ease-in-out forwards, rotate_207 20s 20s ease-in-out forwards;
+  color: #baef8f;
+  width: 39px;
+  height: 40px;
+  transform: rotateZ(140deg) rotateX(15deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(207).ryu {
+    animation: rotate207 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate207 {
+  100% {
+    transform: rotateY(127deg) rotateZ(68deg) rotateX(126deg) translateZ(500px); } }
+@keyframes rotate_207 {
+  100% {
+    transform: rotateY(-258deg) rotateZ(100deg) rotateX(94deg) translateZ(400px) scale(1); } }
+.particle:nth-child(208) {
+  animation: rotate208 20s 0s ease-in-out forwards, rotate_208 20s 20s ease-in-out forwards;
+  color: #ef8fc6;
+  width: 22px;
+  height: 30px;
+  transform: rotateZ(296deg) rotateX(273deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(208).ryu {
+    animation: rotate208 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate208 {
+  100% {
+    transform: rotateY(150deg) rotateZ(313deg) rotateX(202deg) translateZ(500px); } }
+@keyframes rotate_208 {
+  100% {
+    transform: rotateY(-723deg) rotateZ(63deg) rotateX(690deg) translateZ(400px) scale(1); } }
+.particle:nth-child(209) {
+  animation: rotate209 20s 0s ease-in-out forwards, rotate_209 20s 20s ease-in-out forwards;
+  color: #d78fef;
+  width: 4px;
+  height: 14px;
+  transform: rotateZ(311deg) rotateX(66deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(209).ryu {
+    animation: rotate209 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate209 {
+  100% {
+    transform: rotateY(228deg) rotateZ(136deg) rotateX(36deg) translateZ(500px); } }
+@keyframes rotate_209 {
+  100% {
+    transform: rotateY(-969deg) rotateZ(344deg) rotateX(230deg) translateZ(400px) scale(1); } }
+.particle:nth-child(210) {
+  animation: rotate210 20s 0s ease-in-out forwards, rotate_210 20s 20s ease-in-out forwards;
+  color: #ef8fc2;
+  width: 72px;
+  height: 84px;
+  transform: rotateZ(192deg) rotateX(203deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(210).ryu {
+    animation: rotate210 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate210 {
+  100% {
+    transform: rotateY(176deg) rotateZ(341deg) rotateX(305deg) translateZ(500px); } }
+@keyframes rotate_210 {
+  100% {
+    transform: rotateY(-948deg) rotateZ(204deg) rotateX(96deg) translateZ(400px) scale(1); } }
+.particle:nth-child(211) {
+  animation: rotate211 20s 0s ease-in-out forwards, rotate_211 20s 20s ease-in-out forwards;
+  color: #8fefef;
+  width: 117px;
+  height: 4px;
+  transform: rotateZ(215deg) rotateX(113deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(211).ryu {
+    animation: rotate211 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate211 {
+  100% {
+    transform: rotateY(4deg) rotateZ(89deg) rotateX(312deg) translateZ(500px); } }
+@keyframes rotate_211 {
+  100% {
+    transform: rotateY(-807deg) rotateZ(302deg) rotateX(90deg) translateZ(400px) scale(1); } }
+.particle:nth-child(212) {
+  animation: rotate212 20s 0s ease-in-out forwards, rotate_212 20s 20s ease-in-out forwards;
+  color: #8fefe1;
+  width: 84px;
+  height: 21px;
+  transform: rotateZ(51deg) rotateX(111deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(212).ryu {
+    animation: rotate212 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate212 {
+  100% {
+    transform: rotateY(81deg) rotateZ(159deg) rotateX(320deg) translateZ(500px); } }
+@keyframes rotate_212 {
+  100% {
+    transform: rotateY(-810deg) rotateZ(161deg) rotateX(374deg) translateZ(400px) scale(1); } }
+.particle:nth-child(213) {
+  animation: rotate213 20s 0s ease-in-out forwards, rotate_213 20s 20s ease-in-out forwards;
+  color: #8fefa1;
+  width: 4px;
+  height: 36px;
+  transform: rotateZ(53deg) rotateX(95deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(213).ryu {
+    animation: rotate213 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate213 {
+  100% {
+    transform: rotateY(18deg) rotateZ(196deg) rotateX(156deg) translateZ(500px); } }
+@keyframes rotate_213 {
+  100% {
+    transform: rotateY(-654deg) rotateZ(158deg) rotateX(68deg) translateZ(400px) scale(1); } }
+.particle:nth-child(214) {
+  animation: rotate214 20s 0s ease-in-out forwards, rotate_214 20s 20s ease-in-out forwards;
+  color: #8fef93;
+  width: 63px;
+  height: 63px;
+  transform: rotateZ(8deg) rotateX(183deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(214).ryu {
+    animation: rotate214 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate214 {
+  100% {
+    transform: rotateY(241deg) rotateZ(225deg) rotateX(340deg) translateZ(500px); } }
+@keyframes rotate_214 {
+  100% {
+    transform: rotateY(-306deg) rotateZ(145deg) rotateX(648deg) translateZ(400px) scale(1); } }
+.particle:nth-child(215) {
+  animation: rotate215 20s 0s ease-in-out forwards, rotate_215 20s 20s ease-in-out forwards;
+  color: #8fefec;
+  width: 63px;
+  height: 10px;
+  transform: rotateZ(121deg) rotateX(288deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(215).ryu {
+    animation: rotate215 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate215 {
+  100% {
+    transform: rotateY(178deg) rotateZ(17deg) rotateX(14deg) translateZ(500px); } }
+@keyframes rotate_215 {
+  100% {
+    transform: rotateY(-147deg) rotateZ(335deg) rotateX(326deg) translateZ(400px) scale(1); } }
+.particle:nth-child(216) {
+  animation: rotate216 20s 0s ease-in-out forwards, rotate_216 20s 20s ease-in-out forwards;
+  color: #9cef8f;
+  width: 20px;
+  height: 16px;
+  transform: rotateZ(212deg) rotateX(272deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(216).ryu {
+    animation: rotate216 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate216 {
+  100% {
+    transform: rotateY(70deg) rotateZ(301deg) rotateX(258deg) translateZ(500px); } }
+@keyframes rotate_216 {
+  100% {
+    transform: rotateY(-264deg) rotateZ(164deg) rotateX(516deg) translateZ(400px) scale(1); } }
+.particle:nth-child(217) {
+  animation: rotate217 20s 0s ease-in-out forwards, rotate_217 20s 20s ease-in-out forwards;
+  color: #efbe8f;
+  width: 63px;
+  height: 60px;
+  transform: rotateZ(127deg) rotateX(302deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(217).ryu {
+    animation: rotate217 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate217 {
+  100% {
+    transform: rotateY(245deg) rotateZ(327deg) rotateX(226deg) translateZ(500px); } }
+@keyframes rotate_217 {
+  100% {
+    transform: rotateY(-834deg) rotateZ(298deg) rotateX(24deg) translateZ(400px) scale(1); } }
+.particle:nth-child(218) {
+  animation: rotate218 20s 0s ease-in-out forwards, rotate_218 20s 20s ease-in-out forwards;
+  color: #af8fef;
+  width: 28px;
+  height: 13px;
+  transform: rotateZ(227deg) rotateX(246deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(218).ryu {
+    animation: rotate218 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate218 {
+  100% {
+    transform: rotateY(34deg) rotateZ(297deg) rotateX(79deg) translateZ(500px); } }
+@keyframes rotate_218 {
+  100% {
+    transform: rotateY(-288deg) rotateZ(78deg) rotateX(622deg) translateZ(400px) scale(1); } }
+.particle:nth-child(219) {
+  animation: rotate219 20s 0s ease-in-out forwards, rotate_219 20s 20s ease-in-out forwards;
+  color: #efe18f;
+  width: 60px;
+  height: 5px;
+  transform: rotateZ(301deg) rotateX(55deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(219).ryu {
+    animation: rotate219 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate219 {
+  100% {
+    transform: rotateY(42deg) rotateZ(17deg) rotateX(197deg) translateZ(500px); } }
+@keyframes rotate_219 {
+  100% {
+    transform: rotateY(-819deg) rotateZ(5deg) rotateX(480deg) translateZ(400px) scale(1); } }
+.particle:nth-child(220) {
+  animation: rotate220 20s 0s ease-in-out forwards, rotate_220 20s 20s ease-in-out forwards;
+  color: #8fefe9;
+  width: 26px;
+  height: 24px;
+  transform: rotateZ(175deg) rotateX(308deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(220).ryu {
+    animation: rotate220 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate220 {
+  100% {
+    transform: rotateY(32deg) rotateZ(298deg) rotateX(101deg) translateZ(500px); } }
+@keyframes rotate_220 {
+  100% {
+    transform: rotateY(-387deg) rotateZ(20deg) rotateX(510deg) translateZ(400px) scale(1); } }
+.particle:nth-child(221) {
+  animation: rotate221 20s 0s ease-in-out forwards, rotate_221 20s 20s ease-in-out forwards;
+  color: #8fefd7;
+  width: 13px;
+  height: 84px;
+  transform: rotateZ(192deg) rotateX(157deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(221).ryu {
+    animation: rotate221 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate221 {
+  100% {
+    transform: rotateY(29deg) rotateZ(275deg) rotateX(355deg) translateZ(500px); } }
+@keyframes rotate_221 {
+  100% {
+    transform: rotateY(-483deg) rotateZ(182deg) rotateX(480deg) translateZ(400px) scale(1); } }
+.particle:nth-child(222) {
+  animation: rotate222 20s 0s ease-in-out forwards, rotate_222 20s 20s ease-in-out forwards;
+  color: #8fbeef;
+  width: 4px;
+  height: 44px;
+  transform: rotateZ(206deg) rotateX(142deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(222).ryu {
+    animation: rotate222 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate222 {
+  100% {
+    transform: rotateY(173deg) rotateZ(190deg) rotateX(119deg) translateZ(500px); } }
+@keyframes rotate_222 {
+  100% {
+    transform: rotateY(-66deg) rotateZ(223deg) rotateX(650deg) translateZ(400px) scale(1); } }
+.particle:nth-child(223) {
+  animation: rotate223 20s 0s ease-in-out forwards, rotate_223 20s 20s ease-in-out forwards;
+  color: #8fefd6;
+  width: 15px;
+  height: 44px;
+  transform: rotateZ(264deg) rotateX(152deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(223).ryu {
+    animation: rotate223 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate223 {
+  100% {
+    transform: rotateY(10deg) rotateZ(324deg) rotateX(312deg) translateZ(500px); } }
+@keyframes rotate_223 {
+  100% {
+    transform: rotateY(-255deg) rotateZ(103deg) rotateX(676deg) translateZ(400px) scale(1); } }
+.particle:nth-child(224) {
+  animation: rotate224 20s 0s ease-in-out forwards, rotate_224 20s 20s ease-in-out forwards;
+  color: #ef8fc2;
+  width: 5px;
+  height: 28px;
+  transform: rotateZ(30deg) rotateX(29deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(224).ryu {
+    animation: rotate224 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate224 {
+  100% {
+    transform: rotateY(192deg) rotateZ(87deg) rotateX(58deg) translateZ(500px); } }
+@keyframes rotate_224 {
+  100% {
+    transform: rotateY(-531deg) rotateZ(90deg) rotateX(50deg) translateZ(400px) scale(1); } }
+.particle:nth-child(225) {
+  animation: rotate225 20s 0s ease-in-out forwards, rotate_225 20s 20s ease-in-out forwards;
+  color: #ef8fea;
+  width: 48px;
+  height: 1px;
+  transform: rotateZ(158deg) rotateX(73deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(225).ryu {
+    animation: rotate225 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate225 {
+  100% {
+    transform: rotateY(157deg) rotateZ(92deg) rotateX(321deg) translateZ(500px); } }
+@keyframes rotate_225 {
+  100% {
+    transform: rotateY(-66deg) rotateZ(271deg) rotateX(670deg) translateZ(400px) scale(1); } }
+.particle:nth-child(226) {
+  animation: rotate226 20s 0s ease-in-out forwards, rotate_226 20s 20s ease-in-out forwards;
+  color: #a68fef;
+  width: 24px;
+  height: 120px;
+  transform: rotateZ(276deg) rotateX(160deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(226).ryu {
+    animation: rotate226 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate226 {
+  100% {
+    transform: rotateY(23deg) rotateZ(25deg) rotateX(58deg) translateZ(500px); } }
+@keyframes rotate_226 {
+  100% {
+    transform: rotateY(-417deg) rotateZ(203deg) rotateX(690deg) translateZ(400px) scale(1); } }
+.particle:nth-child(227) {
+  animation: rotate227 20s 0s ease-in-out forwards, rotate_227 20s 20s ease-in-out forwards;
+  color: #c78fef;
+  width: 3px;
+  height: 36px;
+  transform: rotateZ(270deg) rotateX(351deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(227).ryu {
+    animation: rotate227 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate227 {
+  100% {
+    transform: rotateY(326deg) rotateZ(27deg) rotateX(276deg) translateZ(500px); } }
+@keyframes rotate_227 {
+  100% {
+    transform: rotateY(-243deg) rotateZ(30deg) rotateX(128deg) translateZ(400px) scale(1); } }
+.particle:nth-child(228) {
+  animation: rotate228 20s 0s ease-in-out forwards, rotate_228 20s 20s ease-in-out forwards;
+  color: #ef9b8f;
+  width: 4px;
+  height: 40px;
+  transform: rotateZ(354deg) rotateX(172deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(228).ryu {
+    animation: rotate228 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate228 {
+  100% {
+    transform: rotateY(251deg) rotateZ(250deg) rotateX(269deg) translateZ(500px); } }
+@keyframes rotate_228 {
+  100% {
+    transform: rotateY(-843deg) rotateZ(120deg) rotateX(312deg) translateZ(400px) scale(1); } }
+.particle:nth-child(229) {
+  animation: rotate229 20s 0s ease-in-out forwards, rotate_229 20s 20s ease-in-out forwards;
+  color: #ef8f99;
+  width: 72px;
+  height: 40px;
+  transform: rotateZ(283deg) rotateX(274deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(229).ryu {
+    animation: rotate229 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate229 {
+  100% {
+    transform: rotateY(197deg) rotateZ(232deg) rotateX(203deg) translateZ(500px); } }
+@keyframes rotate_229 {
+  100% {
+    transform: rotateY(-120deg) rotateZ(38deg) rotateX(522deg) translateZ(400px) scale(1); } }
+.particle:nth-child(230) {
+  animation: rotate230 20s 0s ease-in-out forwards, rotate_230 20s 20s ease-in-out forwards;
+  color: #c48fef;
+  width: 117px;
+  height: 40px;
+  transform: rotateZ(217deg) rotateX(159deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(230).ryu {
+    animation: rotate230 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate230 {
+  100% {
+    transform: rotateY(343deg) rotateZ(254deg) rotateX(322deg) translateZ(500px); } }
+@keyframes rotate_230 {
+  100% {
+    transform: rotateY(-918deg) rotateZ(280deg) rotateX(660deg) translateZ(400px) scale(1); } }
+.particle:nth-child(231) {
+  animation: rotate231 20s 0s ease-in-out forwards, rotate_231 20s 20s ease-in-out forwards;
+  color: #ccef8f;
+  width: 40px;
+  height: 70px;
+  transform: rotateZ(335deg) rotateX(245deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(231).ryu {
+    animation: rotate231 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate231 {
+  100% {
+    transform: rotateY(87deg) rotateZ(212deg) rotateX(166deg) translateZ(500px); } }
+@keyframes rotate_231 {
+  100% {
+    transform: rotateY(-801deg) rotateZ(359deg) rotateX(624deg) translateZ(400px) scale(1); } }
+.particle:nth-child(232) {
+  animation: rotate232 20s 0s ease-in-out forwards, rotate_232 20s 20s ease-in-out forwards;
+  color: #efde8f;
+  width: 32px;
+  height: 75px;
+  transform: rotateZ(195deg) rotateX(48deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(232).ryu {
+    animation: rotate232 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate232 {
+  100% {
+    transform: rotateY(183deg) rotateZ(239deg) rotateX(297deg) translateZ(500px); } }
+@keyframes rotate_232 {
+  100% {
+    transform: rotateY(-276deg) rotateZ(182deg) rotateX(22deg) translateZ(400px) scale(1); } }
+.particle:nth-child(233) {
+  animation: rotate233 20s 0s ease-in-out forwards, rotate_233 20s 20s ease-in-out forwards;
+  color: #8fd2ef;
+  width: 2px;
+  height: 42px;
+  transform: rotateZ(189deg) rotateX(105deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(233).ryu {
+    animation: rotate233 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate233 {
+  100% {
+    transform: rotateY(92deg) rotateZ(185deg) rotateX(354deg) translateZ(500px); } }
+@keyframes rotate_233 {
+  100% {
+    transform: rotateY(-9deg) rotateZ(79deg) rotateX(468deg) translateZ(400px) scale(1); } }
+.particle:nth-child(234) {
+  animation: rotate234 20s 0s ease-in-out forwards, rotate_234 20s 20s ease-in-out forwards;
+  color: #efd68f;
+  width: 27px;
+  height: 18px;
+  transform: rotateZ(157deg) rotateX(204deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(234).ryu {
+    animation: rotate234 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate234 {
+  100% {
+    transform: rotateY(339deg) rotateZ(137deg) rotateX(333deg) translateZ(500px); } }
+@keyframes rotate_234 {
+  100% {
+    transform: rotateY(-390deg) rotateZ(52deg) rotateX(294deg) translateZ(400px) scale(1); } }
+.particle:nth-child(235) {
+  animation: rotate235 20s 0s ease-in-out forwards, rotate_235 20s 20s ease-in-out forwards;
+  color: #efc78f;
+  width: 28px;
+  height: 24px;
+  transform: rotateZ(160deg) rotateX(160deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(235).ryu {
+    animation: rotate235 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate235 {
+  100% {
+    transform: rotateY(177deg) rotateZ(343deg) rotateX(211deg) translateZ(500px); } }
+@keyframes rotate_235 {
+  100% {
+    transform: rotateY(-714deg) rotateZ(328deg) rotateX(440deg) translateZ(400px) scale(1); } }
+.particle:nth-child(236) {
+  animation: rotate236 20s 0s ease-in-out forwards, rotate_236 20s 20s ease-in-out forwards;
+  color: #8fedef;
+  width: 96px;
+  height: 36px;
+  transform: rotateZ(194deg) rotateX(66deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(236).ryu {
+    animation: rotate236 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate236 {
+  100% {
+    transform: rotateY(303deg) rotateZ(156deg) rotateX(54deg) translateZ(500px); } }
+@keyframes rotate_236 {
+  100% {
+    transform: rotateY(-45deg) rotateZ(191deg) rotateX(432deg) translateZ(400px) scale(1); } }
+.particle:nth-child(237) {
+  animation: rotate237 20s 0s ease-in-out forwards, rotate_237 20s 20s ease-in-out forwards;
+  color: #8fefe9;
+  width: 70px;
+  height: 42px;
+  transform: rotateZ(209deg) rotateX(339deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(237).ryu {
+    animation: rotate237 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate237 {
+  100% {
+    transform: rotateY(143deg) rotateZ(282deg) rotateX(47deg) translateZ(500px); } }
+@keyframes rotate_237 {
+  100% {
+    transform: rotateY(-537deg) rotateZ(333deg) rotateX(202deg) translateZ(400px) scale(1); } }
+.particle:nth-child(238) {
+  animation: rotate238 20s 0s ease-in-out forwards, rotate_238 20s 20s ease-in-out forwards;
+  color: #c68fef;
+  width: 30px;
+  height: 9px;
+  transform: rotateZ(81deg) rotateX(106deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(238).ryu {
+    animation: rotate238 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate238 {
+  100% {
+    transform: rotateY(143deg) rotateZ(210deg) rotateX(344deg) translateZ(500px); } }
+@keyframes rotate_238 {
+  100% {
+    transform: rotateY(-567deg) rotateZ(15deg) rotateX(618deg) translateZ(400px) scale(1); } }
+.particle:nth-child(239) {
+  animation: rotate239 20s 0s ease-in-out forwards, rotate_239 20s 20s ease-in-out forwards;
+  color: #d18fef;
+  width: 10px;
+  height: 28px;
+  transform: rotateZ(355deg) rotateX(267deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(239).ryu {
+    animation: rotate239 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate239 {
+  100% {
+    transform: rotateY(212deg) rotateZ(297deg) rotateX(286deg) translateZ(500px); } }
+@keyframes rotate_239 {
+  100% {
+    transform: rotateY(-330deg) rotateZ(350deg) rotateX(244deg) translateZ(400px) scale(1); } }
+.particle:nth-child(240) {
+  animation: rotate240 20s 0s ease-in-out forwards, rotate_240 20s 20s ease-in-out forwards;
+  color: #a3ef8f;
+  width: 50px;
+  height: 28px;
+  transform: rotateZ(14deg) rotateX(62deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(240).ryu {
+    animation: rotate240 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate240 {
+  100% {
+    transform: rotateY(314deg) rotateZ(12deg) rotateX(267deg) translateZ(500px); } }
+@keyframes rotate_240 {
+  100% {
+    transform: rotateY(-561deg) rotateZ(110deg) rotateX(480deg) translateZ(400px) scale(1); } }
+.particle:nth-child(241) {
+  animation: rotate241 20s 0s ease-in-out forwards, rotate_241 20s 20s ease-in-out forwards;
+  color: #ef8f8f;
+  width: 70px;
+  height: 18px;
+  transform: rotateZ(270deg) rotateX(83deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(241).ryu {
+    animation: rotate241 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate241 {
+  100% {
+    transform: rotateY(342deg) rotateZ(264deg) rotateX(179deg) translateZ(500px); } }
+@keyframes rotate_241 {
+  100% {
+    transform: rotateY(-360deg) rotateZ(88deg) rotateX(140deg) translateZ(400px) scale(1); } }
+.particle:nth-child(242) {
+  animation: rotate242 20s 0s ease-in-out forwards, rotate_242 20s 20s ease-in-out forwards;
+  color: #acef8f;
+  width: 90px;
+  height: 20px;
+  transform: rotateZ(157deg) rotateX(315deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(242).ryu {
+    animation: rotate242 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate242 {
+  100% {
+    transform: rotateY(137deg) rotateZ(111deg) rotateX(337deg) translateZ(500px); } }
+@keyframes rotate_242 {
+  100% {
+    transform: rotateY(-15deg) rotateZ(187deg) rotateX(428deg) translateZ(400px) scale(1); } }
+.particle:nth-child(243) {
+  animation: rotate243 20s 0s ease-in-out forwards, rotate_243 20s 20s ease-in-out forwards;
+  color: #e18fef;
+  width: 10px;
+  height: 48px;
+  transform: rotateZ(148deg) rotateX(20deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(243).ryu {
+    animation: rotate243 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate243 {
+  100% {
+    transform: rotateY(346deg) rotateZ(5deg) rotateX(207deg) translateZ(500px); } }
+@keyframes rotate_243 {
+  100% {
+    transform: rotateY(-231deg) rotateZ(61deg) rotateX(358deg) translateZ(400px) scale(1); } }
+.particle:nth-child(244) {
+  animation: rotate244 20s 0s ease-in-out forwards, rotate_244 20s 20s ease-in-out forwards;
+  color: #ef8fea;
+  width: 18px;
+  height: 105px;
+  transform: rotateZ(118deg) rotateX(164deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(244).ryu {
+    animation: rotate244 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate244 {
+  100% {
+    transform: rotateY(61deg) rotateZ(120deg) rotateX(245deg) translateZ(500px); } }
+@keyframes rotate_244 {
+  100% {
+    transform: rotateY(-474deg) rotateZ(263deg) rotateX(654deg) translateZ(400px) scale(1); } }
+.particle:nth-child(245) {
+  animation: rotate245 20s 0s ease-in-out forwards, rotate_245 20s 20s ease-in-out forwards;
+  color: #ef8fe4;
+  width: 18px;
+  height: 25px;
+  transform: rotateZ(100deg) rotateX(46deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(245).ryu {
+    animation: rotate245 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate245 {
+  100% {
+    transform: rotateY(312deg) rotateZ(203deg) rotateX(287deg) translateZ(500px); } }
+@keyframes rotate_245 {
+  100% {
+    transform: rotateY(-270deg) rotateZ(282deg) rotateX(482deg) translateZ(400px) scale(1); } }
+.particle:nth-child(246) {
+  animation: rotate246 20s 0s ease-in-out forwards, rotate_246 20s 20s ease-in-out forwards;
+  color: #a38fef;
+  width: 45px;
+  height: 16px;
+  transform: rotateZ(157deg) rotateX(14deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(246).ryu {
+    animation: rotate246 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate246 {
+  100% {
+    transform: rotateY(18deg) rotateZ(260deg) rotateX(222deg) translateZ(500px); } }
+@keyframes rotate_246 {
+  100% {
+    transform: rotateY(-90deg) rotateZ(283deg) rotateX(430deg) translateZ(400px) scale(1); } }
+.particle:nth-child(247) {
+  animation: rotate247 20s 0s ease-in-out forwards, rotate_247 20s 20s ease-in-out forwards;
+  color: #8fbaef;
+  width: 28px;
+  height: 45px;
+  transform: rotateZ(153deg) rotateX(330deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(247).ryu {
+    animation: rotate247 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate247 {
+  100% {
+    transform: rotateY(224deg) rotateZ(286deg) rotateX(198deg) translateZ(500px); } }
+@keyframes rotate_247 {
+  100% {
+    transform: rotateY(-795deg) rotateZ(177deg) rotateX(482deg) translateZ(400px) scale(1); } }
+.particle:nth-child(248) {
+  animation: rotate248 20s 0s ease-in-out forwards, rotate_248 20s 20s ease-in-out forwards;
+  color: #918fef;
+  width: 63px;
+  height: 78px;
+  transform: rotateZ(169deg) rotateX(211deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(248).ryu {
+    animation: rotate248 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate248 {
+  100% {
+    transform: rotateY(69deg) rotateZ(106deg) rotateX(102deg) translateZ(500px); } }
+@keyframes rotate_248 {
+  100% {
+    transform: rotateY(-789deg) rotateZ(178deg) rotateX(344deg) translateZ(400px) scale(1); } }
+.particle:nth-child(249) {
+  animation: rotate249 20s 0s ease-in-out forwards, rotate_249 20s 20s ease-in-out forwards;
+  color: #ef918f;
+  width: 6px;
+  height: 72px;
+  transform: rotateZ(161deg) rotateX(258deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(249).ryu {
+    animation: rotate249 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate249 {
+  100% {
+    transform: rotateY(344deg) rotateZ(122deg) rotateX(313deg) translateZ(500px); } }
+@keyframes rotate_249 {
+  100% {
+    transform: rotateY(-732deg) rotateZ(24deg) rotateX(462deg) translateZ(400px) scale(1); } }
+.particle:nth-child(250) {
+  animation: rotate250 20s 0s ease-in-out forwards, rotate_250 20s 20s ease-in-out forwards;
+  color: #caef8f;
+  width: 90px;
+  height: 45px;
+  transform: rotateZ(220deg) rotateX(348deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(250).ryu {
+    animation: rotate250 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate250 {
+  100% {
+    transform: rotateY(235deg) rotateZ(26deg) rotateX(84deg) translateZ(500px); } }
+@keyframes rotate_250 {
+  100% {
+    transform: rotateY(-261deg) rotateZ(222deg) rotateX(236deg) translateZ(400px) scale(1); } }
+.particle:nth-child(251) {
+  animation: rotate251 20s 0s ease-in-out forwards, rotate_251 20s 20s ease-in-out forwards;
+  color: #e28fef;
+  width: 135px;
+  height: 120px;
+  transform: rotateZ(353deg) rotateX(281deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(251).ryu {
+    animation: rotate251 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate251 {
+  100% {
+    transform: rotateY(226deg) rotateZ(35deg) rotateX(23deg) translateZ(500px); } }
+@keyframes rotate_251 {
+  100% {
+    transform: rotateY(-570deg) rotateZ(113deg) rotateX(478deg) translateZ(400px) scale(1); } }
+.particle:nth-child(252) {
+  animation: rotate252 20s 0s ease-in-out forwards, rotate_252 20s 20s ease-in-out forwards;
+  color: #b7ef8f;
+  width: 12px;
+  height: 24px;
+  transform: rotateZ(45deg) rotateX(58deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(252).ryu {
+    animation: rotate252 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate252 {
+  100% {
+    transform: rotateY(175deg) rotateZ(164deg) rotateX(84deg) translateZ(500px); } }
+@keyframes rotate_252 {
+  100% {
+    transform: rotateY(-810deg) rotateZ(199deg) rotateX(318deg) translateZ(400px) scale(1); } }
+.particle:nth-child(253) {
+  animation: rotate253 20s 0s ease-in-out forwards, rotate_253 20s 20s ease-in-out forwards;
+  color: #ce8fef;
+  width: 104px;
+  height: 70px;
+  transform: rotateZ(317deg) rotateX(173deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(253).ryu {
+    animation: rotate253 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate253 {
+  100% {
+    transform: rotateY(66deg) rotateZ(104deg) rotateX(216deg) translateZ(500px); } }
+@keyframes rotate_253 {
+  100% {
+    transform: rotateY(-492deg) rotateZ(280deg) rotateX(674deg) translateZ(400px) scale(1); } }
+.particle:nth-child(254) {
+  animation: rotate254 20s 0s ease-in-out forwards, rotate_254 20s 20s ease-in-out forwards;
+  color: #ccef8f;
+  width: 36px;
+  height: 12px;
+  transform: rotateZ(141deg) rotateX(48deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(254).ryu {
+    animation: rotate254 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate254 {
+  100% {
+    transform: rotateY(151deg) rotateZ(209deg) rotateX(224deg) translateZ(500px); } }
+@keyframes rotate_254 {
+  100% {
+    transform: rotateY(-663deg) rotateZ(307deg) rotateX(482deg) translateZ(400px) scale(1); } }
+.particle:nth-child(255) {
+  animation: rotate255 20s 0s ease-in-out forwards, rotate_255 20s 20s ease-in-out forwards;
+  color: #ef8fb9;
+  width: 40px;
+  height: 14px;
+  transform: rotateZ(72deg) rotateX(300deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(255).ryu {
+    animation: rotate255 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate255 {
+  100% {
+    transform: rotateY(146deg) rotateZ(144deg) rotateX(314deg) translateZ(500px); } }
+@keyframes rotate_255 {
+  100% {
+    transform: rotateY(-114deg) rotateZ(43deg) rotateX(170deg) translateZ(400px) scale(1); } }
+.particle:nth-child(256) {
+  animation: rotate256 20s 0s ease-in-out forwards, rotate_256 20s 20s ease-in-out forwards;
+  color: #8fefa4;
+  width: 7px;
+  height: 30px;
+  transform: rotateZ(152deg) rotateX(11deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(256).ryu {
+    animation: rotate256 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate256 {
+  100% {
+    transform: rotateY(158deg) rotateZ(126deg) rotateX(331deg) translateZ(500px); } }
+@keyframes rotate_256 {
+  100% {
+    transform: rotateY(-213deg) rotateZ(353deg) rotateX(580deg) translateZ(400px) scale(1); } }
+.particle:nth-child(257) {
+  animation: rotate257 20s 0s ease-in-out forwards, rotate_257 20s 20s ease-in-out forwards;
+  color: #efaf8f;
+  width: 91px;
+  height: 32px;
+  transform: rotateZ(169deg) rotateX(323deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(257).ryu {
+    animation: rotate257 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate257 {
+  100% {
+    transform: rotateY(343deg) rotateZ(183deg) rotateX(195deg) translateZ(500px); } }
+@keyframes rotate_257 {
+  100% {
+    transform: rotateY(-705deg) rotateZ(294deg) rotateX(248deg) translateZ(400px) scale(1); } }
+.particle:nth-child(258) {
+  animation: rotate258 20s 0s ease-in-out forwards, rotate_258 20s 20s ease-in-out forwards;
+  color: #8fef9c;
+  width: 64px;
+  height: 5px;
+  transform: rotateZ(138deg) rotateX(265deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(258).ryu {
+    animation: rotate258 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate258 {
+  100% {
+    transform: rotateY(279deg) rotateZ(270deg) rotateX(290deg) translateZ(500px); } }
+@keyframes rotate_258 {
+  100% {
+    transform: rotateY(-783deg) rotateZ(18deg) rotateX(170deg) translateZ(400px) scale(1); } }
+.particle:nth-child(259) {
+  animation: rotate259 20s 0s ease-in-out forwards, rotate_259 20s 20s ease-in-out forwards;
+  color: #8f93ef;
+  width: 5px;
+  height: 65px;
+  transform: rotateZ(243deg) rotateX(202deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(259).ryu {
+    animation: rotate259 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate259 {
+  100% {
+    transform: rotateY(167deg) rotateZ(95deg) rotateX(113deg) translateZ(500px); } }
+@keyframes rotate_259 {
+  100% {
+    transform: rotateY(-498deg) rotateZ(324deg) rotateX(62deg) translateZ(400px) scale(1); } }
+.particle:nth-child(260) {
+  animation: rotate260 20s 0s ease-in-out forwards, rotate_260 20s 20s ease-in-out forwards;
+  color: #ef8fce;
+  width: 150px;
+  height: 12px;
+  transform: rotateZ(342deg) rotateX(284deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(260).ryu {
+    animation: rotate260 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate260 {
+  100% {
+    transform: rotateY(225deg) rotateZ(276deg) rotateX(305deg) translateZ(500px); } }
+@keyframes rotate_260 {
+  100% {
+    transform: rotateY(-294deg) rotateZ(140deg) rotateX(552deg) translateZ(400px) scale(1); } }
+.particle:nth-child(261) {
+  animation: rotate261 20s 0s ease-in-out forwards, rotate_261 20s 20s ease-in-out forwards;
+  color: #8fefb9;
+  width: 40px;
+  height: 52px;
+  transform: rotateZ(46deg) rotateX(342deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(261).ryu {
+    animation: rotate261 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate261 {
+  100% {
+    transform: rotateY(251deg) rotateZ(287deg) rotateX(288deg) translateZ(500px); } }
+@keyframes rotate_261 {
+  100% {
+    transform: rotateY(-666deg) rotateZ(263deg) rotateX(640deg) translateZ(400px) scale(1); } }
+.particle:nth-child(262) {
+  animation: rotate262 20s 0s ease-in-out forwards, rotate_262 20s 20s ease-in-out forwards;
+  color: #8fefd4;
+  width: 30px;
+  height: 70px;
+  transform: rotateZ(253deg) rotateX(197deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(262).ryu {
+    animation: rotate262 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate262 {
+  100% {
+    transform: rotateY(235deg) rotateZ(147deg) rotateX(26deg) translateZ(500px); } }
+@keyframes rotate_262 {
+  100% {
+    transform: rotateY(-594deg) rotateZ(81deg) rotateX(292deg) translateZ(400px) scale(1); } }
+.particle:nth-child(263) {
+  animation: rotate263 20s 0s ease-in-out forwards, rotate_263 20s 20s ease-in-out forwards;
+  color: #d9ef8f;
+  width: 90px;
+  height: 96px;
+  transform: rotateZ(346deg) rotateX(113deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(263).ryu {
+    animation: rotate263 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate263 {
+  100% {
+    transform: rotateY(358deg) rotateZ(124deg) rotateX(137deg) translateZ(500px); } }
+@keyframes rotate_263 {
+  100% {
+    transform: rotateY(-492deg) rotateZ(35deg) rotateX(442deg) translateZ(400px) scale(1); } }
+.particle:nth-child(264) {
+  animation: rotate264 20s 0s ease-in-out forwards, rotate_264 20s 20s ease-in-out forwards;
+  color: #8fcfef;
+  width: 52px;
+  height: 7px;
+  transform: rotateZ(57deg) rotateX(4deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(264).ryu {
+    animation: rotate264 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate264 {
+  100% {
+    transform: rotateY(322deg) rotateZ(344deg) rotateX(190deg) translateZ(500px); } }
+@keyframes rotate_264 {
+  100% {
+    transform: rotateY(-426deg) rotateZ(291deg) rotateX(26deg) translateZ(400px) scale(1); } }
+.particle:nth-child(265) {
+  animation: rotate265 20s 0s ease-in-out forwards, rotate_265 20s 20s ease-in-out forwards;
+  color: #938fef;
+  width: 70px;
+  height: 104px;
+  transform: rotateZ(303deg) rotateX(338deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(265).ryu {
+    animation: rotate265 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate265 {
+  100% {
+    transform: rotateY(244deg) rotateZ(70deg) rotateX(276deg) translateZ(500px); } }
+@keyframes rotate_265 {
+  100% {
+    transform: rotateY(-372deg) rotateZ(351deg) rotateX(506deg) translateZ(400px) scale(1); } }
+.particle:nth-child(266) {
+  animation: rotate266 20s 0s ease-in-out forwards, rotate_266 20s 20s ease-in-out forwards;
+  color: #8fefef;
+  width: 4px;
+  height: 4px;
+  transform: rotateZ(23deg) rotateX(324deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(266).ryu {
+    animation: rotate266 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate266 {
+  100% {
+    transform: rotateY(323deg) rotateZ(49deg) rotateX(231deg) translateZ(500px); } }
+@keyframes rotate_266 {
+  100% {
+    transform: rotateY(-1020deg) rotateZ(316deg) rotateX(438deg) translateZ(400px) scale(1); } }
+.particle:nth-child(267) {
+  animation: rotate267 20s 0s ease-in-out forwards, rotate_267 20s 20s ease-in-out forwards;
+  color: #efda8f;
+  width: 36px;
+  height: 30px;
+  transform: rotateZ(309deg) rotateX(237deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(267).ryu {
+    animation: rotate267 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate267 {
+  100% {
+    transform: rotateY(10deg) rotateZ(226deg) rotateX(291deg) translateZ(500px); } }
+@keyframes rotate_267 {
+  100% {
+    transform: rotateY(-555deg) rotateZ(236deg) rotateX(482deg) translateZ(400px) scale(1); } }
+.particle:nth-child(268) {
+  animation: rotate268 20s 0s ease-in-out forwards, rotate_268 20s 20s ease-in-out forwards;
+  color: #ef8faf;
+  width: 52px;
+  height: 16px;
+  transform: rotateZ(57deg) rotateX(144deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(268).ryu {
+    animation: rotate268 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate268 {
+  100% {
+    transform: rotateY(270deg) rotateZ(165deg) rotateX(11deg) translateZ(500px); } }
+@keyframes rotate_268 {
+  100% {
+    transform: rotateY(-990deg) rotateZ(261deg) rotateX(222deg) translateZ(400px) scale(1); } }
+.particle:nth-child(269) {
+  animation: rotate269 20s 0s ease-in-out forwards, rotate_269 20s 20s ease-in-out forwards;
+  color: #efbe8f;
+  width: 10px;
+  height: 40px;
+  transform: rotateZ(264deg) rotateX(303deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(269).ryu {
+    animation: rotate269 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate269 {
+  100% {
+    transform: rotateY(149deg) rotateZ(82deg) rotateX(232deg) translateZ(500px); } }
+@keyframes rotate_269 {
+  100% {
+    transform: rotateY(-168deg) rotateZ(315deg) rotateX(62deg) translateZ(400px) scale(1); } }
+.particle:nth-child(270) {
+  animation: rotate270 20s 0s ease-in-out forwards, rotate_270 20s 20s ease-in-out forwards;
+  color: #dcef8f;
+  width: 28px;
+  height: 12px;
+  transform: rotateZ(21deg) rotateX(26deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(270).ryu {
+    animation: rotate270 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate270 {
+  100% {
+    transform: rotateY(217deg) rotateZ(320deg) rotateX(231deg) translateZ(500px); } }
+@keyframes rotate_270 {
+  100% {
+    transform: rotateY(-900deg) rotateZ(95deg) rotateX(368deg) translateZ(400px) scale(1); } }
+.particle:nth-child(271) {
+  animation: rotate271 20s 0s ease-in-out forwards, rotate_271 20s 20s ease-in-out forwards;
+  color: #8fecef;
+  width: 27px;
+  height: 13px;
+  transform: rotateZ(122deg) rotateX(142deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(271).ryu {
+    animation: rotate271 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate271 {
+  100% {
+    transform: rotateY(86deg) rotateZ(141deg) rotateX(256deg) translateZ(500px); } }
+@keyframes rotate_271 {
+  100% {
+    transform: rotateY(-264deg) rotateZ(145deg) rotateX(418deg) translateZ(400px) scale(1); } }
+.particle:nth-child(272) {
+  animation: rotate272 20s 0s ease-in-out forwards, rotate_272 20s 20s ease-in-out forwards;
+  color: #efa48f;
+  width: 12px;
+  height: 12px;
+  transform: rotateZ(159deg) rotateX(258deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(272).ryu {
+    animation: rotate272 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate272 {
+  100% {
+    transform: rotateY(152deg) rotateZ(146deg) rotateX(222deg) translateZ(500px); } }
+@keyframes rotate_272 {
+  100% {
+    transform: rotateY(-1005deg) rotateZ(268deg) rotateX(34deg) translateZ(400px) scale(1); } }
+.particle:nth-child(273) {
+  animation: rotate273 20s 0s ease-in-out forwards, rotate_273 20s 20s ease-in-out forwards;
+  color: #8fefe2;
+  width: 130px;
+  height: 3px;
+  transform: rotateZ(181deg) rotateX(335deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(273).ryu {
+    animation: rotate273 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate273 {
+  100% {
+    transform: rotateY(111deg) rotateZ(52deg) rotateX(179deg) translateZ(500px); } }
+@keyframes rotate_273 {
+  100% {
+    transform: rotateY(-699deg) rotateZ(162deg) rotateX(662deg) translateZ(400px) scale(1); } }
+.particle:nth-child(274) {
+  animation: rotate274 20s 0s ease-in-out forwards, rotate_274 20s 20s ease-in-out forwards;
+  color: #dcef8f;
+  width: 24px;
+  height: 28px;
+  transform: rotateZ(247deg) rotateX(207deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(274).ryu {
+    animation: rotate274 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate274 {
+  100% {
+    transform: rotateY(274deg) rotateZ(25deg) rotateX(248deg) translateZ(500px); } }
+@keyframes rotate_274 {
+  100% {
+    transform: rotateY(-657deg) rotateZ(110deg) rotateX(338deg) translateZ(400px) scale(1); } }
+.particle:nth-child(275) {
+  animation: rotate275 20s 0s ease-in-out forwards, rotate_275 20s 20s ease-in-out forwards;
+  color: #8fefd2;
+  width: 63px;
+  height: 60px;
+  transform: rotateZ(223deg) rotateX(309deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(275).ryu {
+    animation: rotate275 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate275 {
+  100% {
+    transform: rotateY(205deg) rotateZ(161deg) rotateX(325deg) translateZ(500px); } }
+@keyframes rotate_275 {
+  100% {
+    transform: rotateY(-1014deg) rotateZ(50deg) rotateX(540deg) translateZ(400px) scale(1); } }
+.particle:nth-child(276) {
+  animation: rotate276 20s 0s ease-in-out forwards, rotate_276 20s 20s ease-in-out forwards;
+  color: #8fefc4;
+  width: 24px;
+  height: 24px;
+  transform: rotateZ(72deg) rotateX(350deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(276).ryu {
+    animation: rotate276 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate276 {
+  100% {
+    transform: rotateY(298deg) rotateZ(78deg) rotateX(47deg) translateZ(500px); } }
+@keyframes rotate_276 {
+  100% {
+    transform: rotateY(-750deg) rotateZ(49deg) rotateX(188deg) translateZ(400px) scale(1); } }
+.particle:nth-child(277) {
+  animation: rotate277 20s 0s ease-in-out forwards, rotate_277 20s 20s ease-in-out forwards;
+  color: #8fd4ef;
+  width: 40px;
+  height: 50px;
+  transform: rotateZ(156deg) rotateX(64deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(277).ryu {
+    animation: rotate277 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate277 {
+  100% {
+    transform: rotateY(124deg) rotateZ(222deg) rotateX(201deg) translateZ(500px); } }
+@keyframes rotate_277 {
+  100% {
+    transform: rotateY(-138deg) rotateZ(178deg) rotateX(662deg) translateZ(400px) scale(1); } }
+.particle:nth-child(278) {
+  animation: rotate278 20s 0s ease-in-out forwards, rotate_278 20s 20s ease-in-out forwards;
+  color: #ef8fab;
+  width: 24px;
+  height: 42px;
+  transform: rotateZ(63deg) rotateX(317deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(278).ryu {
+    animation: rotate278 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate278 {
+  100% {
+    transform: rotateY(235deg) rotateZ(245deg) rotateX(283deg) translateZ(500px); } }
+@keyframes rotate_278 {
+  100% {
+    transform: rotateY(-81deg) rotateZ(110deg) rotateX(392deg) translateZ(400px) scale(1); } }
+.particle:nth-child(279) {
+  animation: rotate279 20s 0s ease-in-out forwards, rotate_279 20s 20s ease-in-out forwards;
+  color: #8fdaef;
+  width: 45px;
+  height: 117px;
+  transform: rotateZ(293deg) rotateX(230deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(279).ryu {
+    animation: rotate279 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate279 {
+  100% {
+    transform: rotateY(171deg) rotateZ(138deg) rotateX(82deg) translateZ(500px); } }
+@keyframes rotate_279 {
+  100% {
+    transform: rotateY(-435deg) rotateZ(43deg) rotateX(420deg) translateZ(400px) scale(1); } }
+.particle:nth-child(280) {
+  animation: rotate280 20s 0s ease-in-out forwards, rotate_280 20s 20s ease-in-out forwards;
+  color: #ef8f9f;
+  width: 22px;
+  height: 25px;
+  transform: rotateZ(89deg) rotateX(18deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(280).ryu {
+    animation: rotate280 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate280 {
+  100% {
+    transform: rotateY(94deg) rotateZ(287deg) rotateX(305deg) translateZ(500px); } }
+@keyframes rotate_280 {
+  100% {
+    transform: rotateY(-1071deg) rotateZ(299deg) rotateX(166deg) translateZ(400px) scale(1); } }
+.particle:nth-child(281) {
+  animation: rotate281 20s 0s ease-in-out forwards, rotate_281 20s 20s ease-in-out forwards;
+  color: #d1ef8f;
+  width: 90px;
+  height: 24px;
+  transform: rotateZ(132deg) rotateX(47deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(281).ryu {
+    animation: rotate281 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate281 {
+  100% {
+    transform: rotateY(226deg) rotateZ(319deg) rotateX(232deg) translateZ(500px); } }
+@keyframes rotate_281 {
+  100% {
+    transform: rotateY(-168deg) rotateZ(177deg) rotateX(186deg) translateZ(400px) scale(1); } }
+.particle:nth-child(282) {
+  animation: rotate282 20s 0s ease-in-out forwards, rotate_282 20s 20s ease-in-out forwards;
+  color: #ba8fef;
+  width: 26px;
+  height: 55px;
+  transform: rotateZ(83deg) rotateX(215deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(282).ryu {
+    animation: rotate282 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate282 {
+  100% {
+    transform: rotateY(341deg) rotateZ(63deg) rotateX(155deg) translateZ(500px); } }
+@keyframes rotate_282 {
+  100% {
+    transform: rotateY(-306deg) rotateZ(360deg) rotateX(368deg) translateZ(400px) scale(1); } }
+.particle:nth-child(283) {
+  animation: rotate283 20s 0s ease-in-out forwards, rotate_283 20s 20s ease-in-out forwards;
+  color: #e18fef;
+  width: 12px;
+  height: 13px;
+  transform: rotateZ(78deg) rotateX(185deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(283).ryu {
+    animation: rotate283 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate283 {
+  100% {
+    transform: rotateY(199deg) rotateZ(326deg) rotateX(277deg) translateZ(500px); } }
+@keyframes rotate_283 {
+  100% {
+    transform: rotateY(-735deg) rotateZ(207deg) rotateX(314deg) translateZ(400px) scale(1); } }
+.particle:nth-child(284) {
+  animation: rotate284 20s 0s ease-in-out forwards, rotate_284 20s 20s ease-in-out forwards;
+  color: #8fefe7;
+  width: 24px;
+  height: 9px;
+  transform: rotateZ(53deg) rotateX(105deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(284).ryu {
+    animation: rotate284 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate284 {
+  100% {
+    transform: rotateY(87deg) rotateZ(194deg) rotateX(231deg) translateZ(500px); } }
+@keyframes rotate_284 {
+  100% {
+    transform: rotateY(-243deg) rotateZ(89deg) rotateX(120deg) translateZ(400px) scale(1); } }
+.particle:nth-child(285) {
+  animation: rotate285 20s 0s ease-in-out forwards, rotate_285 20s 20s ease-in-out forwards;
+  color: #be8fef;
+  width: 110px;
+  height: 4px;
+  transform: rotateZ(270deg) rotateX(278deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(285).ryu {
+    animation: rotate285 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate285 {
+  100% {
+    transform: rotateY(149deg) rotateZ(189deg) rotateX(151deg) translateZ(500px); } }
+@keyframes rotate_285 {
+  100% {
+    transform: rotateY(-525deg) rotateZ(334deg) rotateX(252deg) translateZ(400px) scale(1); } }
+.particle:nth-child(286) {
+  animation: rotate286 20s 0s ease-in-out forwards, rotate_286 20s 20s ease-in-out forwards;
+  color: #8fb4ef;
+  width: 24px;
+  height: 56px;
+  transform: rotateZ(76deg) rotateX(196deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(286).ryu {
+    animation: rotate286 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate286 {
+  100% {
+    transform: rotateY(198deg) rotateZ(103deg) rotateX(262deg) translateZ(500px); } }
+@keyframes rotate_286 {
+  100% {
+    transform: rotateY(-201deg) rotateZ(324deg) rotateX(286deg) translateZ(400px) scale(1); } }
+.particle:nth-child(287) {
+  animation: rotate287 20s 0s ease-in-out forwards, rotate_287 20s 20s ease-in-out forwards;
+  color: #d68fef;
+  width: 15px;
+  height: 63px;
+  transform: rotateZ(229deg) rotateX(189deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(287).ryu {
+    animation: rotate287 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate287 {
+  100% {
+    transform: rotateY(147deg) rotateZ(283deg) rotateX(342deg) translateZ(500px); } }
+@keyframes rotate_287 {
+  100% {
+    transform: rotateY(-132deg) rotateZ(20deg) rotateX(116deg) translateZ(400px) scale(1); } }
+.particle:nth-child(288) {
+  animation: rotate288 20s 0s ease-in-out forwards, rotate_288 20s 20s ease-in-out forwards;
+  color: #9f8fef;
+  width: 5px;
+  height: 104px;
+  transform: rotateZ(245deg) rotateX(141deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(288).ryu {
+    animation: rotate288 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate288 {
+  100% {
+    transform: rotateY(15deg) rotateZ(3deg) rotateX(311deg) translateZ(500px); } }
+@keyframes rotate_288 {
+  100% {
+    transform: rotateY(-633deg) rotateZ(334deg) rotateX(666deg) translateZ(400px) scale(1); } }
+.particle:nth-child(289) {
+  animation: rotate289 20s 0s ease-in-out forwards, rotate_289 20s 20s ease-in-out forwards;
+  color: #8fdaef;
+  width: 7px;
+  height: 6px;
+  transform: rotateZ(178deg) rotateX(296deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(289).ryu {
+    animation: rotate289 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate289 {
+  100% {
+    transform: rotateY(11deg) rotateZ(329deg) rotateX(185deg) translateZ(500px); } }
+@keyframes rotate_289 {
+  100% {
+    transform: rotateY(-372deg) rotateZ(40deg) rotateX(336deg) translateZ(400px) scale(1); } }
+.particle:nth-child(290) {
+  animation: rotate290 20s 0s ease-in-out forwards, rotate_290 20s 20s ease-in-out forwards;
+  color: #cc8fef;
+  width: 35px;
+  height: 48px;
+  transform: rotateZ(130deg) rotateX(65deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(290).ryu {
+    animation: rotate290 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate290 {
+  100% {
+    transform: rotateY(317deg) rotateZ(309deg) rotateX(171deg) translateZ(500px); } }
+@keyframes rotate_290 {
+  100% {
+    transform: rotateY(-642deg) rotateZ(64deg) rotateX(452deg) translateZ(400px) scale(1); } }
+.particle:nth-child(291) {
+  animation: rotate291 20s 0s ease-in-out forwards, rotate_291 20s 20s ease-in-out forwards;
+  color: #d9ef8f;
+  width: 21px;
+  height: 45px;
+  transform: rotateZ(234deg) rotateX(56deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(291).ryu {
+    animation: rotate291 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate291 {
+  100% {
+    transform: rotateY(169deg) rotateZ(123deg) rotateX(131deg) translateZ(500px); } }
+@keyframes rotate_291 {
+  100% {
+    transform: rotateY(-261deg) rotateZ(97deg) rotateX(78deg) translateZ(400px) scale(1); } }
+.particle:nth-child(292) {
+  animation: rotate292 20s 0s ease-in-out forwards, rotate_292 20s 20s ease-in-out forwards;
+  color: #8fe4ef;
+  width: 42px;
+  height: 6px;
+  transform: rotateZ(244deg) rotateX(108deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(292).ryu {
+    animation: rotate292 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate292 {
+  100% {
+    transform: rotateY(38deg) rotateZ(37deg) rotateX(212deg) translateZ(500px); } }
+@keyframes rotate_292 {
+  100% {
+    transform: rotateY(-957deg) rotateZ(250deg) rotateX(200deg) translateZ(400px) scale(1); } }
+.particle:nth-child(293) {
+  animation: rotate293 20s 0s ease-in-out forwards, rotate_293 20s 20s ease-in-out forwards;
+  color: #e4ef8f;
+  width: 36px;
+  height: 18px;
+  transform: rotateZ(120deg) rotateX(91deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(293).ryu {
+    animation: rotate293 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate293 {
+  100% {
+    transform: rotateY(120deg) rotateZ(207deg) rotateX(76deg) translateZ(500px); } }
+@keyframes rotate_293 {
+  100% {
+    transform: rotateY(-324deg) rotateZ(219deg) rotateX(110deg) translateZ(400px) scale(1); } }
+.particle:nth-child(294) {
+  animation: rotate294 20s 0s ease-in-out forwards, rotate_294 20s 20s ease-in-out forwards;
+  color: #8feaef;
+  width: 32px;
+  height: 70px;
+  transform: rotateZ(336deg) rotateX(317deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(294).ryu {
+    animation: rotate294 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate294 {
+  100% {
+    transform: rotateY(185deg) rotateZ(26deg) rotateX(60deg) translateZ(500px); } }
+@keyframes rotate_294 {
+  100% {
+    transform: rotateY(-477deg) rotateZ(267deg) rotateX(400deg) translateZ(400px) scale(1); } }
+.particle:nth-child(295) {
+  animation: rotate295 20s 0s ease-in-out forwards, rotate_295 20s 20s ease-in-out forwards;
+  color: #cc8fef;
+  width: 15px;
+  height: 96px;
+  transform: rotateZ(193deg) rotateX(14deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(295).ryu {
+    animation: rotate295 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate295 {
+  100% {
+    transform: rotateY(113deg) rotateZ(10deg) rotateX(313deg) translateZ(500px); } }
+@keyframes rotate_295 {
+  100% {
+    transform: rotateY(-516deg) rotateZ(275deg) rotateX(94deg) translateZ(400px) scale(1); } }
+.particle:nth-child(296) {
+  animation: rotate296 20s 0s ease-in-out forwards, rotate_296 20s 20s ease-in-out forwards;
+  color: #ecef8f;
+  width: 63px;
+  height: 63px;
+  transform: rotateZ(263deg) rotateX(100deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(296).ryu {
+    animation: rotate296 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate296 {
+  100% {
+    transform: rotateY(94deg) rotateZ(13deg) rotateX(242deg) translateZ(500px); } }
+@keyframes rotate_296 {
+  100% {
+    transform: rotateY(-636deg) rotateZ(186deg) rotateX(692deg) translateZ(400px) scale(1); } }
+.particle:nth-child(297) {
+  animation: rotate297 20s 0s ease-in-out forwards, rotate_297 20s 20s ease-in-out forwards;
+  color: #91ef8f;
+  width: 33px;
+  height: 3px;
+  transform: rotateZ(138deg) rotateX(240deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(297).ryu {
+    animation: rotate297 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate297 {
+  100% {
+    transform: rotateY(279deg) rotateZ(358deg) rotateX(136deg) translateZ(500px); } }
+@keyframes rotate_297 {
+  100% {
+    transform: rotateY(-870deg) rotateZ(357deg) rotateX(584deg) translateZ(400px) scale(1); } }
+.particle:nth-child(298) {
+  animation: rotate298 20s 0s ease-in-out forwards, rotate_298 20s 20s ease-in-out forwards;
+  color: #8fef96;
+  width: 84px;
+  height: 7px;
+  transform: rotateZ(93deg) rotateX(39deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(298).ryu {
+    animation: rotate298 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate298 {
+  100% {
+    transform: rotateY(25deg) rotateZ(4deg) rotateX(254deg) translateZ(500px); } }
+@keyframes rotate_298 {
+  100% {
+    transform: rotateY(-390deg) rotateZ(60deg) rotateX(122deg) translateZ(400px) scale(1); } }
+.particle:nth-child(299) {
+  animation: rotate299 20s 0s ease-in-out forwards, rotate_299 20s 20s ease-in-out forwards;
+  color: #ba8fef;
+  width: 5px;
+  height: 6px;
+  transform: rotateZ(139deg) rotateX(32deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(299).ryu {
+    animation: rotate299 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate299 {
+  100% {
+    transform: rotateY(90deg) rotateZ(291deg) rotateX(185deg) translateZ(500px); } }
+@keyframes rotate_299 {
+  100% {
+    transform: rotateY(-462deg) rotateZ(190deg) rotateX(268deg) translateZ(400px) scale(1); } }
+.particle:nth-child(300) {
+  animation: rotate300 20s 0s ease-in-out forwards, rotate_300 20s 20s ease-in-out forwards;
+  color: #8fefc2;
+  width: 5px;
+  height: 16px;
+  transform: rotateZ(77deg) rotateX(334deg) scale(0.3) translateZ(500px); }
+  .particle:nth-child(300).ryu {
+    animation: rotate300 20s 0s ease-in-out forwards, rotate_ryu 20s 20s ease-in-out forwards;
+    font-size: 20px; }
+
+@keyframes rotate300 {
+  100% {
+    transform: rotateY(91deg) rotateZ(209deg) rotateX(18deg) translateZ(500px); } }
+@keyframes rotate_300 {
+  100% {
+    transform: rotateY(-426deg) rotateZ(309deg) rotateX(394deg) translateZ(400px) scale(1); } }
+
+/*# sourceMappingURL=style.css.map */
