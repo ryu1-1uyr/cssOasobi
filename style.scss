@@ -48,11 +48,6 @@ body {
     width: random(15) * random(10) + px;
     height: random(15) * random(10) + px;
     transform: rotateZ((random(360) + deg)) rotateX((random(360) + deg)) scale(0.3) translateZ(500px);
-    &.ryu {
-      animation: rotate#{$i} 20s 0s ease-in-out forwards,
-      rotate_ryu 20s 20s ease-in-out forwards;
-      font-size: 20px;
-    }
   }
 
 
