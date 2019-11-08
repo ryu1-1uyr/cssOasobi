@@ -19,7 +19,7 @@ body {
 
 .wrapper {
   will-change: animation;
-  animation: moveAround 40s infinite ease;
+  animation: moveAround 20s infinite ease;
   transform-style: preserve-3d;
 }
 
@@ -29,16 +29,6 @@ body {
   }
 }
 
-@keyframes rotate_ryu {
-  50% {
-    font-size: 100px;
-    transform: rotateY((random(360) * -3deg)) rotateZ(-(random(360) * -1deg)) rotateX(-(random(360) * -2deg)) translateZ(400px) scale(5);
-  }
-  100%{
-    font-size: 120px;
-    transform: rotateY(1deg) rotateZ(10deg) rotateX(50deg) scale(3);
-  }
-}
 
 @for $i from 1 through 300 {
   .particle:nth-child(#{$i}) {
@@ -47,13 +37,13 @@ body {
     color: hsl(random(360), 75%, 75%);
     width: random(15) * random(10) + px;
     height: random(15) * random(10) + px;
-    transform: rotateZ((random(360) + deg)) rotateX((random(360) + deg)) scale(0.3) translateZ(500px);
+    //transform: rotateZ((random(360) + deg)) rotateX((random(360) + deg)) scale(0.3) translateZ(500px);
   }
 
 
   @keyframes rotate#{$i} {
     100% {
-      transform: rotateY((random(360) * 1deg)) rotateZ((random(360) * 1deg)) rotateX((random(360) * 1deg)) translateZ(500px);
+      transform: rotateY((random(360) * 1deg)) rotateZ((random(360) * 1deg)) rotateX((random(360) * 1deg)) translateZ(200px);
     }
   }
   @keyframes rotate_#{$i} {
